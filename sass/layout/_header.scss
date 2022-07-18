@@ -1,7 +1,23 @@
-.header{
+.header-main{
     display: flex;
     justify-content: center;
     margin-top: 50px;
     margin-bottom: 5px;
     box-shadow: 0 5px 0 $green;
+}
+.header-other{
+    display: flex;
+    align-items: center;
+}
+.logo-header{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button-arrow{
+    font-size: 30px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+
 }

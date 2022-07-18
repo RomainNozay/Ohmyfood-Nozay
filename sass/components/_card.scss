@@ -1,0 +1,16 @@
+.choice-card{
+    display: flex;
+    background-color: white;
+    width: 96%;
+    border-radius: 25px;
+    justify-content: space-between;
+    height: 75px;
+    margin-top: 20px;
+    padding-left: 2%;
+    box-shadow: 0px 0px 15px $green;
+}
+.price{
+    position: relative;
+    right: 25px;
+    font-size: 25px;
+}
