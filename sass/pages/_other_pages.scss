@@ -26,14 +26,15 @@
 .choice-area{
     display: flex;
     flex-direction: column;
-    align-items: center;
-}
-.title-meat{
-    margin-bottom: 0px;
+    margin-left:2%;
 }
 .choice-title{
     margin-left: 2%;
 }
+.title-meat{
+    margin-bottom: 0px;
+}
+
 .underline{border-bottom: solid 3px $green;}
 .order_area{
     display: flex;
@@ -55,7 +56,13 @@
     top: -15px;}
 
 @media screen and (min-width: 992px){
-  
+  .menu{
+    display: flex;
+    flex-direction: row;
+  }
+  .choice-area{
+    width: 30%;
+  }
 
 
 }
