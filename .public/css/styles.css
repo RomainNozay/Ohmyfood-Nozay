@@ -1,3 +1,11 @@
+h1 {
+  font-size: 45px;
+}
+
+html {
+  font-family: "roboto";
+}
+
 .location {
   display: flex;
   justify-content: center;
@@ -8,7 +16,7 @@
 }
 
 .icon1 {
-  width: 30px;
+  font-size: 20px;
   background-color: #99E2D0;
   border: none;
 }
@@ -19,6 +27,9 @@
   justify-content: center;
   border: none;
   background-color: #99E2D0;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
 }
 
 .choice-card {
@@ -82,6 +93,18 @@ li {
   border-top: 20px;
 }
 
+@media screen and (min-width: 992px) {
+  footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  .logo-footer {
+    width: 200px;
+    left: -4%;
+  }
+}
 .header-main {
   display: flex;
   justify-content: center;
@@ -133,6 +156,7 @@ li {
 }
 .utensils-loader::before {
   font-size: 300px;
+  color: #9356DC;
 }
 
 .utensils-loader {
@@ -151,8 +175,10 @@ li {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
+  justify-content: center;
   flex-wrap: wrap;
-  height: 300px;
+  height: auto;
   background-color: whitesmoke;
 }
 
@@ -167,7 +193,11 @@ li {
   box-shadow: 0 0 5px #FF79DA;
   cursor: pointer;
   font-weight: bold;
-  margin-top: 30px;
+  margin: 30px;
+  transition: transform 200ms;
+}
+.search_font:hover {
+  transform: scale(1.05);
 }
 
 .notice {
@@ -218,7 +248,7 @@ li {
 
 .text_stage {
   font-size: 30px;
-  margin-left: 20px;
+  margin-left: 40px;
   margin-right: 20px;
   font-weight: bold;
 }
@@ -246,6 +276,16 @@ li {
   width: 100%;
 }
 
+.section__restaurants-cards-new {
+  background-color: #99e2d0;
+  border-radius: 5px;
+  color: #1f997c;
+  position: absolute;
+  right: 50px;
+  padding: 15px;
+  margin-top: 20px;
+}
+
 .restaurant-card {
   display: flex;
   flex-direction: column;
@@ -255,9 +295,10 @@ li {
   margin-bottom: 25px;
   height: 250px;
   box-shadow: 5px 5px 5px gray;
+  transition: all 800ms;
 }
 .restaurant-card:hover {
-  box-shadow: 5px 5px 25px black;
+  box-shadow: 0px 0px 25px black;
   filter: brightness(1.1);
 }
 
@@ -312,6 +353,38 @@ h4 {
   color: #9356DC;
 }
 
+@media screen and (min-width: 992px) {
+  .search_font {
+    width: 40%;
+  }
+  .title_notice {
+    display: flex;
+    justify-content: center;
+  }
+  .notice_area {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    height: auto;
+  }
+  .notice_stage {
+    width: 30%;
+  }
+  .restaurant-title {
+    display: flex;
+    justify-content: center;
+    left: 0px;
+  }
+  .restaurant-area {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .restaurant-card {
+    width: 45%;
+  }
+}
 .img-area {
   display: block;
   width: 100%;

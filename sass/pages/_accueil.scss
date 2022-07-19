@@ -23,6 +23,7 @@
 
 .utensils-loader::before{
     font-size: 300px;
+    color: $blue;
 }
 .utensils-loader{
     animation: rotation 1.6s alternate infinite ease;
@@ -35,14 +36,14 @@
         transform: rotate(360deg);
     }
 }
-
-
 .title_area{
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
+    justify-content: center;
     flex-wrap: wrap;
-    height: 300px;
+    height: auto;
     background-color: whitesmoke;
 }
 .search_font{
@@ -56,7 +57,12 @@
     box-shadow: 0 0 5px $pink;
     cursor: pointer;
     font-weight: bold;
-    margin-top: 30px;
+    margin: 30px;
+    transition:transform 200ms;
+    &:hover{
+        transform: scale(1.05);
+    }
+
 }
 .notice{
     display: flex;
@@ -99,7 +105,7 @@
 }
 .text_stage{
     font-size: 30px;
-    margin-left: 20px;
+    margin-left: 40px;
     margin-right: 20px;
     font-weight: bold;
 }
@@ -123,7 +129,16 @@
     align-items: center;
     width: 100%;
 }
-
+.section__restaurants-cards-new {
+    background-color: #99e2d0;
+    border-radius: 5px;
+    color: #1f997c;
+    position: absolute;
+    right: 50px;
+    padding: 15px;
+    margin-top: 20px;
+    
+}
 .restaurant-card{
     display: flex;
     flex-direction: column;
@@ -133,8 +148,9 @@
     margin-bottom: 25px;
     height: 250px;
     box-shadow: 5px 5px 5px gray;
+    transition: all 800ms;
     &:hover{
-        box-shadow: 5px 5px 25px black;
+        box-shadow: 0px 0px 25px black;
         filter: brightness(1.1);
     }
     }
@@ -181,5 +197,35 @@ h4{
         color: $blue;
     }
 }
-
+@media screen and (min-width: 992px){
+    .search_font{
+        width: 40%;
+    }
+    .title_notice{
+        display: flex;
+        justify-content: center;
+    }
+   .notice_area{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    height: auto;
+   }
+   .notice_stage{
+    width:30%;
+   }
+   .restaurant-title{
+    display: flex;
+    justify-content: center;
+    left: 0px;}
+    .restaurant-area{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+   }
+   .restaurant-card{
+    width:45%;
+   }
+}
 
