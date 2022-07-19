@@ -114,7 +114,7 @@ li {
   align-items: center;
   flex-wrap: wrap;
   height: 300px;
-  box-shadow: 0 0 5px #99E2D0;
+  background-color: whitesmoke;
 }
 
 .search_font {
@@ -155,7 +155,8 @@ li {
 }
 
 .notice_stage:hover {
-  background: linear-gradient(#9356DC, #FF79DA);
+  transform: scale(1.02);
+  background-color: #f5edff;
 }
 
 .number_stage {
@@ -214,6 +215,11 @@ li {
   border-radius: 25px;
   margin-bottom: 25px;
   height: 250px;
+  box-shadow: 5px 5px 5px gray;
+}
+.restaurant-card:hover {
+  box-shadow: 5px 5px 25px black;
+  filter: brightness(1.1);
 }
 
 .restaurant-link {
@@ -261,6 +267,10 @@ h4 {
   font-size: 30px;
   text-shadow: 0 0 5px black;
   color: white;
+  transition: all 800ms;
+}
+.fa-heart:hover {
+  color: #9356DC;
 }
 
 .img-area {
