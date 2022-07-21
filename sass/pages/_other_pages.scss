@@ -13,7 +13,7 @@
     flex-direction: column;
     border-radius: 25px 25px 0 0 ;
     position: relative;
-    top: -80px;
+    bottom: 200px;
     background-color: white;
 }
 .meat-area-title{
@@ -22,6 +22,7 @@
     align-items: center;
     padding-left: 2.5%;
     padding-right: 5%;
+
 }
 .choice-area{
     display: flex;
@@ -34,7 +35,11 @@
     margin-left: 2%;
 }
 .title-meat{
-    margin-bottom: 0px;
+    margin-bottom: 0;
+    overflow: hidden;
+  white-space: nowrap;
+  text-overflow : ellipsis;
+  width:100%;
 }
 
 .underline{border-bottom: solid 3px $green;}
@@ -43,6 +48,13 @@
     justify-content: center;
     align-items: center;
 }
+.text-meal{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow : ellipsis;
+    width: 100%;
+}
+
 .order_font{    
     width:50%;
     height:50px;
@@ -55,17 +67,15 @@
     cursor: pointer;
     font-weight: bold;
     position: relative;
-    top: -15px;}
-
-.meal_check{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: $green;
-    width: 0px;
-    height: 0px;
-    opacity: 0%;
+    top: 30px;
+    &:hover{
+        transform: scale(1.05);
+    }
 }
+
+
+
+
 
 @media screen and (min-width: 992px){
   .menu{
@@ -75,6 +85,4 @@
   .choice-area{
     width: 30%;
   }
-
-
 }

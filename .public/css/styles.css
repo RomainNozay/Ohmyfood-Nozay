@@ -34,17 +34,18 @@ html {
 
 .choice-card {
   display: flex;
-  background-color: white;
+  justify-content: space-between;
   width: 96%;
   border-radius: 25px;
-  justify-content: space-between;
   height: 75px;
   margin-top: 20px;
   padding-left: 2%;
   box-shadow: 0px 0px 15px #99E2D0;
   position: relative;
   top: 20px;
+  cursor: pointer;
   opacity: 0%;
+  transition: transform 4000ms;
   animation: menu-appearance 1s forwards;
 }
 @keyframes menu-appearance {
@@ -75,9 +76,69 @@ html {
 }
 
 .price {
-  position: relative;
-  right: 25px;
   font-size: 25px;
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  left: 105%;
+}
+
+.meal_check {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #99E2D0;
+  width: 80px;
+  height: 75px;
+  border-radius: 0 25px 25px 0;
+  transform: scaleX(0);
+  transform-origin: 100% 0%;
+  transition: transform 2000ms;
+}
+.meal_check span {
+  transform: rotate(180deg);
+  transition: transform 2000ms;
+  display: block;
+}
+
+.fa-check {
+  color: #99E2D0;
+  background-color: white;
+  border-radius: 50px;
+  width: 25px;
+  height: 25px;
+  font-size: 20px;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+.text-area2 {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  padding: 0px 5%;
+  transform-origin: left;
+  transform: translateX(0px);
+  transition: transform 2000ms;
+}
+.text-area2 span {
+  transform: translateX(0);
+  transition: transform 2000ms;
+}
+.text-area2:hover {
+  transform: scale(1);
+}
+.text-area2:hover span {
+  transform: translate(-70px);
+}
+.text-area2:hover + .meal_check {
+  transform: translateX(-70px);
+  opacity: 100%;
+  transform: scaleX(1.1);
+}
+.text-area2:hover + .meal_check span {
+  transform: rotate(360deg);
 }
 
 footer {
@@ -431,7 +492,7 @@ h4 {
   flex-direction: column;
   border-radius: 25px 25px 0 0;
   position: relative;
-  top: -80px;
+  bottom: 200px;
   background-color: white;
 }
 
@@ -455,7 +516,11 @@ h4 {
 }
 
 .title-meat {
-  margin-bottom: 0px;
+  margin-bottom: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 100%;
 }
 
 .underline {
@@ -466,6 +531,13 @@ h4 {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.text-meal {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 100%;
 }
 
 .order_font {
@@ -480,17 +552,10 @@ h4 {
   cursor: pointer;
   font-weight: bold;
   position: relative;
-  top: -15px;
+  top: 30px;
 }
-
-.meal_check {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #99E2D0;
-  width: 0px;
-  height: 0px;
-  opacity: 0%;
+.order_font:hover {
+  transform: scale(1.05);
 }
 
 @media screen and (min-width: 992px) {
