@@ -204,6 +204,7 @@ li {
 }
 .contact {
   text-decoration: none;
+  color: white;
 }
 
 .header-main {
@@ -563,7 +564,7 @@ h4 {
   cursor: pointer;
   font-weight: bold;
   position: relative;
-  top: 30px;
+  bottom: 120px;
 }
 .order_font:hover {
   transform: scale(1.05);
