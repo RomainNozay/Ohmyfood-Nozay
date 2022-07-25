@@ -6,6 +6,10 @@ html {
   font-family: "roboto";
 }
 
+button {
+  cursor: pointer;
+}
+
 .location {
   display: flex;
   justify-content: center;
@@ -78,8 +82,10 @@ html {
 .price {
   font-size: 25px;
   width: 30%;
+  height: 100%;
   display: flex;
   justify-content: flex-end;
+  align-items: center;
   position: absolute;
   left: 105%;
 }
@@ -89,7 +95,7 @@ html {
   justify-content: center;
   align-items: center;
   background-color: #99E2D0;
-  width: 80px;
+  width: 60px;
   height: 75px;
   border-radius: 0 25px 25px 0;
   transform: scaleX(0);
@@ -130,10 +136,10 @@ html {
   transform: scale(1);
 }
 .text-area2:hover span {
-  transform: translate(-70px);
+  transform: translate(-30px);
 }
 .text-area2:hover + .meal_check {
-  transform: translateX(-70px);
+  transform: translateX(-50px);
   opacity: 100%;
   transform: scaleX(1.1);
 }
@@ -196,6 +202,10 @@ li {
     left: -4%;
   }
 }
+.contact {
+  text-decoration: none;
+}
+
 .header-main {
   display: flex;
   justify-content: center;
@@ -220,6 +230,7 @@ li {
   background-color: white;
   border: none;
   cursor: pointer;
+  color: black;
 }
 
 .background-loader {
