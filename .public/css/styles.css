@@ -286,7 +286,7 @@ li {
 }
 
 .search_font {
-  width: 50%;
+  width: 25%;
   height: 50px;
   background: linear-gradient(#9356DC, #FF79DA);
   border-radius: 25px;
@@ -301,6 +301,7 @@ li {
 }
 .search_font:hover {
   transform: scale(1.05);
+  filter: brightness(1.1);
 }
 
 .notice {
@@ -458,7 +459,7 @@ h4 {
 
 @media screen and (min-width: 992px) {
   .search_font {
-    width: 40%;
+    width: 25%;
   }
   .title_notice {
     display: flex;

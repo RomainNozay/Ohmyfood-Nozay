@@ -47,7 +47,7 @@
     background-color: whitesmoke;
 }
 .search_font{
-    width:50%;
+    width:25%;
     height:50px;
     background: linear-gradient($blue,$pink);
     border-radius: 25px;
@@ -61,9 +61,8 @@
     transition:transform 200ms;
     &:hover{
         transform: scale(1.05);
-    }
-
-}
+        filter: brightness(1.1);
+}}
 .notice{
     display: flex;
     flex-direction: column; 
@@ -199,7 +198,7 @@ h4{
 }
 @media screen and (min-width: 992px){
     .search_font{
-        width: 40%;
+        width: 25%;
     }
     .title_notice{
         display: flex;
@@ -226,6 +225,4 @@ h4{
    }
    .restaurant-card{
     width:45%;
-   }
-}
-
+   }}
