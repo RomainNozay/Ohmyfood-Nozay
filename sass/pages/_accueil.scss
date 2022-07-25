@@ -128,14 +128,14 @@
     align-items: center;
     width: 100%;
 }
-.section__restaurants-cards-new {
+.card-new {
     background-color: #99e2d0;
     border-radius: 5px;
     color: #1f997c;
-    position: absolute;
-    right: 50px;
     padding: 15px;
     margin-top: 20px;
+    position: relative;
+    left: 50px;
     
 }
 .restaurant-card{
@@ -225,4 +225,8 @@ h4{
    }
    .restaurant-card{
     width:45%;
-   }}
+   }
+   .card-new{
+
+   }
+}
