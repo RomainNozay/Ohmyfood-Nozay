@@ -16,7 +16,7 @@ button {
   width: 100%;
   height: 60px;
   background-color: #99E2D0;
-  filter: brightness(105%);
+  filter: brightness(108%);
 }
 
 .icon1 {
@@ -43,7 +43,6 @@ button {
   border-radius: 25px;
   height: 75px;
   margin-top: 20px;
-  padding-left: 2%;
   box-shadow: 0px 0px 15px #99E2D0;
   position: relative;
   top: 20px;
@@ -81,7 +80,7 @@ button {
 
 .price {
   font-size: 25px;
-  width: 30%;
+  width: 33%;
   height: 100%;
   display: flex;
   justify-content: flex-end;
@@ -170,6 +169,7 @@ ul {
   color: white;
   font-size: 18px;
   margin-left: 10px;
+  cursor: pointer;
 }
 
 .fa-utensils::before {
@@ -240,30 +240,34 @@ li {
   background-color: white;
   position: fixed;
   top: 0px;
-  z-index: 100;
+  z-index: 1;
   display: flex;
   justify-content: center;
   align-items: center;
-  animation: fadeout 0.2s 3s forwards;
+  animation: fadeout 0.1s 3s forwards;
 }
 
 @keyframes fadeout {
   from {
-    opacity: 100%;
     transform: translateX(0);
   }
   to {
-    opacity: 0%;
     transform: translateX(-9999px);
   }
 }
-.utensils-loader::before {
-  font-size: 300px;
-  color: #9356DC;
+.utensils-loader {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  border-top: solid #99E2D0 6px;
+  border-bottom: solid #9356DC 6px;
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
 }
 
 .utensils-loader {
-  animation: rotation 1.6s alternate infinite ease;
+  animation: rotation 3s alternate ease;
 }
 
 @keyframes rotation {
@@ -274,6 +278,34 @@ li {
     transform: rotate(360deg);
   }
 }
+.utensils-loader-medium {
+  display: flex;
+  width: 150px;
+  height: 150px;
+  border-top: solid #99E2D0 6px;
+  border-bottom: solid #9356DC 6px;
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.utensils-loader-medium {
+  animation: rotation 2s alternate-reverse ease;
+}
+
+.utensils-loader-tiny {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  border-top: solid #99E2D0 6px;
+  border-bottom: solid #9356DC 6px;
+  border-radius: 100px;
+}
+
+.utensils-loader-tiny {
+  animation: rotation 1.5s alternate-reverse ease;
+}
+
 .title_area {
   display: flex;
   flex-direction: column;
@@ -325,6 +357,7 @@ li {
   border-radius: 25px;
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .notice_stage:hover {
