@@ -44,8 +44,8 @@
    justify-content: flex-end;
    align-items: center;
    font-weight: bold;
-   position: relative;
-   left: 120px;
+   position: absolute;
+   left: 100%;
 
 }
 .meal_check{
@@ -100,5 +100,30 @@
         transform: rotate(360deg);
     }
 }}
+@media screen and (min-width: 992px){
+    .choice-card{
+        height: 75px;
+    }
+    .text-area2{
+        &:hover{
+            transform: scale(1);
+            span{
+                transform: translate(-30px);
+            }
 
+    }}
+   .price{
+    font-size: 25px;
+    }
+    .meal-check{
+        width: 15%;
+    }
+    .fa-check{
+    width: 25px;
+    height: 25px;
+    font-size: 20px;
+    padding-left: 5px;
+    padding-top: 5px;
+    }
+}
 
