@@ -69,7 +69,6 @@ h2{
     background: linear-gradient($blue,$pink);
     border-radius: 25px;
     color: white;
-    font-size: 35px;
     border:none;
     box-shadow: 0 0 5px $pink;
     cursor: pointer;
@@ -80,7 +79,9 @@ h2{
         transform: scale(1.05);
     }
 }
-
+.search_text{
+    font-size: 40px;
+}
 
 
 
@@ -98,5 +99,11 @@ h2{
 }
     .text-meal{
         font-size: 15px;
+    }
+    .order_font{
+        width: 25%;
+    }
+    .search_text{
+        font-size: 30px;
     }
 }
