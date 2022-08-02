@@ -3,7 +3,7 @@
     justify-content: space-between;
     width: 96%;
     border-radius: 25px;
-    height: 75px;
+    height: 150px;
     margin-top: 20px;
     box-shadow: 0px 0px 15px $green;
     position: relative;
@@ -38,14 +38,14 @@
     animation-delay: calc(5s/5);
 }
 .price{
-   font-size: 25px; 
-   width: 33%;
+   font-size: 35px; 
    height: 100%;
    display: flex;
    justify-content: flex-end;
    align-items: center;
-   position: absolute;
-   left: 105%;
+   font-weight: bold;
+   position: relative;
+   left: 120px;
 
 }
 .meal_check{
@@ -53,8 +53,8 @@
     justify-content: center;
     align-items: center;
     background-color: $green;
-    width: 60px;
-    height: 75px;
+    width: 20%;
+    height:100%;
     border-radius: 0 25px 25px 0;
     transform: scaleX(0);
     transform-origin:  100% 0%;
@@ -69,16 +69,16 @@
     color: $green;
     background-color: white;
     border-radius: 50px;
-    width: 25px;
-    height: 25px;
+    width: 35px;
+    height: 35px;
     font-size: 20px;
-    padding-left: 5px;
-    padding-top: 5px;
+    padding-left: 15px;
+    padding-top: 15px;
 }
 .text-area2{
     display: flex;
     justify-content: space-between;
-    width: 60%;
+    width: 100%;
     padding: 0px 5%;
     transform-origin:  left;
     transform: translateX(0px);
@@ -90,7 +90,7 @@
 &:hover{
     transform: scale(1);
     span{
-        transform: translate(-30px);
+        transform: translate(-50px);
     }
 }
 &:hover + .meal_check{
