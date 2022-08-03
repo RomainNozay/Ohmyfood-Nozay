@@ -4,7 +4,6 @@ h1 {
 
 html {
   font-family: "roboto";
-  max-width: 2000px;
 }
 
 button {
@@ -129,10 +128,6 @@ button {
   transform: translateX(0px);
   transition: transform 1000ms;
 }
-.text-area2 span {
-  transform: translateX(0);
-  transition: transform 1000ms;
-}
 .text-area2:hover span {
   transform: translate(-50px);
 }
@@ -148,9 +143,6 @@ button {
 @media screen and (min-width: 992px) {
   .choice-card {
     height: 75px;
-  }
-  .text-area2:hover {
-    width: 90%;
   }
   .text-area2:hover span {
     transform: translate(-30px);
@@ -655,10 +647,6 @@ h2 {
   width: 100%;
   font-size: 35px;
 }
-.text-meal:hover {
-  width: 75%;
-  transition-duration: 1s;
-}
 
 .order_font {
   width: 40%;
@@ -703,4 +691,4 @@ h2 {
   }
 }
 
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=styles.map */

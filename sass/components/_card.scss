@@ -13,6 +13,7 @@
     transition: transform 4000ms;
     animation: menu-appearance 1s forwards;
     overflow: hidden;  
+    
     @keyframes menu-appearance {
         from{
             opacity: 0%;
@@ -82,10 +83,6 @@
     transform-origin:  left;
     transform: translateX(0px);
     transition: transform 1000ms;
-    span{
-        transform: translateX(0);
-        transition: transform 1000ms
-    }
 &:hover{
     
     span{
@@ -105,7 +102,6 @@
     }
     .text-area2{
         &:hover{
-            width: 90%;
             span{
                 transform: translate(-30px);
             }
