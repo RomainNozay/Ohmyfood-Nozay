@@ -45,11 +45,20 @@ li{
     font-size: 10px;
 }
 @media screen and (min-width: 992px){
+    .footer_main{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        top: -280px;
+    }
     footer{
         display: flex;
         align-items: center;
         flex-direction: column;
         width: 100%;
+        position: relative;
+        top: -70px;
     }
     .logo-footer{
         width:200px;

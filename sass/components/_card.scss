@@ -96,29 +96,3 @@
         transform: rotate(360deg);
     }
 }}
-@media screen and (min-width: 992px){
-    .choice-card{
-        height: 75px;
-    }
-    .text-area2{
-        &:hover{
-            span{
-                transform: translate(-30px);
-            }
-
-    }}
-   .price{
-    font-size: 20px;
-    }
-    .meal-check{
-        width: 15%;
-    }
-    .fa-check{
-    width: 25px;
-    height: 25px;
-    font-size: 20px;
-    padding-left: 5px;
-    padding-top: 5px;
-    }
-}
-

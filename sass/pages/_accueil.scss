@@ -249,6 +249,12 @@ h4{
     }
 }
 @media screen and (min-width: 992px){
+    .location{
+        width: 50%;
+    }
+    .title_area{
+        width: 50%;
+    }
     .search_font{
         width: 25%;
     }
@@ -256,15 +262,25 @@ h4{
         display: flex;
         justify-content: center;
     }
-   .notice_area{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    height: auto;
-   }
+    .notice{
+       width: 50%;
+       position: relative;
+       left: 40%;
+       height: 350px;
+       bottom: 350px;
+    }
+    .notice_area{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        position: relative;
+        left: 20%;
+    }
    .notice_stage{
-    width:30%;
+    width:70%;
+   }
+   .restaurant-list{
+    top: -300px;
    }
    .restaurant-title{
     display: flex;
