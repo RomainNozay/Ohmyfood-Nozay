@@ -414,11 +414,7 @@ h1 {
   cursor: pointer;
 }
 .notice_stage:hover {
-  transform: scale(1.02);
   background-color: #f5edff;
-}
-.notice_stage:hover span {
-  color: #9356DC;
 }
 
 .number_stage {
