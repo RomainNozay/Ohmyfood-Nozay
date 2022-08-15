@@ -5,10 +5,12 @@
     height: 60px;
     background-color: $green;
     filter: brightness(108%);}
+    
 .icon1{
     font-size: 20px;
     background-color: $green;
-    border: none;}
+    border: none;
+    margin-left: 55px;}
 
 .search_bar{
     width: 200px;
@@ -16,7 +18,9 @@
     justify-content: center;
     border: none;
     background-color: $green;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
+}
+.search_bar::placeholder{
     color: black;
 }

@@ -8,7 +8,7 @@ footer{
     width: 30%;
     filter: brightness(2000%);
     position: relative;
-    left: 2%;
+    left: 5%;
     top: 20px;
 }
 ul{
@@ -22,26 +22,27 @@ ul{
     cursor: pointer;
 }
 .fa-utensils::before{
-    font-size: 15px;
+    font-size: 10px;
     margin-right: 10px;
     position: relative;
     bottom: 2px;
 }
 .fa-handshake-angle::before{
-    font-size: 15px;
+    font-size: 10px;
     margin-right: 5px;
     position: relative;
     bottom: 2px;
 }
 li{
-    border-top: 20px;
-    font-size: 40px;
+    margin-top: 5px;
+    font-size: 15px;
+
 }
 .fa-handshake-angle::before{
-    font-size: 27px;
+    font-size: 10px;
 }
 .fa-utensils:before{
-    font-size: 27px;
+    font-size: 10px;
 }
 @media screen and (min-width: 992px){
     footer{
