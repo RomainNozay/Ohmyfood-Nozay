@@ -603,11 +603,13 @@ h4 {
   .title_notice {
     display: flex;
     justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
   }
   .notice {
     width: 50%;
     position: relative;
-    left: 40%;
+    left: 50%;
     height: 350px;
     bottom: 350px;
   }
@@ -620,6 +622,8 @@ h4 {
   }
   .notice_stage {
     width: 70%;
+    position: relative;
+    right: 15%;
   }
   .restaurant-list {
     top: -300px;
@@ -646,6 +650,9 @@ h4 {
   }
 }
 @media screen and (min-width: 768px) {
+  .notice {
+    margin-left: 0px;
+  }
   .title_notice {
     margin-left: auto;
     margin-right: auto;
@@ -655,6 +662,12 @@ h4 {
   }
   .restaurant-card {
     height: 300px;
+  }
+  .card-new {
+    width: 100px;
+    height: 50px;
+    left: 80%;
+    bottom: 200px;
   }
   .text-area {
     top: 10px;
