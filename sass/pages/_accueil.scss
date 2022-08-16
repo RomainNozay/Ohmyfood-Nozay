@@ -101,7 +101,8 @@ h1{
 }
 .notice{
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
+    margin-left: 20px;
 }
 .title_notice>h2{
     font-size: 30px;
@@ -118,12 +119,15 @@ h1{
     box-shadow: 0 0 10px gray;
     width: 90%;
     height: 60px;
-    border-radius: 25px;
+    border-radius: 20px;
     display: flex;
     align-items: center;
     cursor: pointer;
 &:hover{
     background-color:#f5edff;
+    span{
+        color:$blue;
+    }
 }
 }
 .number_stage{
@@ -137,10 +141,37 @@ h1{
     align-items: center;
     justify-content: center;
     position: relative;
-    left:-15px}
+    left:-30px}
+.number_stage2{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    font-size: 15px;
+    color: white;
+    background-color: $blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left:-35px}
+    .number_stage3{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    font-size: 15px;
+    color: white;
+    background-color: $blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left:-38px
+    }
 .logo_stage{
     font-size: 20px;
     color: grey;
+    position: relative;
+    left: 30px;
 }
 .text_stage{
     font-size: 15px;
