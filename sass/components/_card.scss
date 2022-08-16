@@ -81,7 +81,6 @@
     bottom: 10px;
     padding: 0px 5%;
     transform-origin:  left;
-    transform: translateX(0px);
     transition: all 1000ms;
     &:hover{
         width: 70%;
@@ -89,10 +88,15 @@
        
 
 &:hover + .meal_check{
-    transform: translateX(-50px); opacity: 100%;
+    opacity: 100%;
     transform: scaleX(1.1);
     width: 15%;
     span{
         transform: rotate(360deg);
     }
 }}
+@media screen and (min-width: 768px){
+    .choice-card{
+        height: 80px;
+    }
+}
