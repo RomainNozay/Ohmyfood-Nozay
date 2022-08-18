@@ -607,9 +607,9 @@ h4 {
     margin-right: auto;
   }
   .notice {
-    width: 50%;
+    width: 40%;
     position: relative;
-    left: 50%;
+    left: 55%;
     height: 350px;
     bottom: 350px;
   }
@@ -793,9 +793,6 @@ h2 {
   }
   .choice-title-texte {
     font-size: 30px;
-  }
-  .text-meal {
-    font-size: 15px;
   }
   .order_area {
     position: relative;
