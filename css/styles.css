@@ -95,6 +95,7 @@ button {
   justify-content: flex-end;
   align-items: flex-end;
   font-weight: bold;
+  width: 15%;
 }
 
 .meal_check {
@@ -105,13 +106,15 @@ button {
   width: 0%;
   height: 100%;
   border-radius: 0 20px 20px 0;
+  position: relative;
+  left: 2px;
   transform: scaleX(0);
   transform-origin: 100% 0%;
-  transition: transform 1000ms;
+  transition: transform 500ms;
 }
 .meal_check span {
   transform: rotate(180deg);
-  transition: transform 1000ms;
+  transition: transform 500ms;
   display: block;
 }
 
@@ -131,13 +134,13 @@ button {
   justify-content: space-between;
   width: 100%;
   position: relative;
-  bottom: 10px;
+  bottom: 5px;
   padding: 0px 5%;
   transform-origin: left;
-  transition: all 1000ms;
+  transition: all 500ms;
 }
 .text-area2:hover {
-  width: 70%;
+  width: 80%;
 }
 .text-area2:hover + .meal_check {
   opacity: 100%;
@@ -207,13 +210,28 @@ li {
   font-size: 10px;
 }
 
+@media screen and (min-width: 768px) {
+  footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .footer_main {
+    top: 50px;
+    display: flex;
+    align-items: center;
+  }
+  .logo-footer {
+    width: 60%;
+  }
+}
 @media screen and (min-width: 992px) {
   .footer_main {
     display: flex;
     align-items: center;
     flex-direction: column;
     width: 100%;
-    top: -280px;
+    top: -300px;
   }
   footer {
     display: flex;
@@ -268,7 +286,7 @@ li {
     width: 50%;
   }
   .logo-header {
-    width: 35%;
+    width: 30%;
   }
   .button-arrow {
     font-size: 40px;
@@ -300,9 +318,9 @@ li {
   display: flex;
   width: 200px;
   height: 200px;
-  border-top: solid #99E2D0 6px;
-  border-bottom: solid #9356DC 6px;
-  border-radius: 100px;
+  border-top: solid #99E2D0 10px;
+  border-bottom: solid #9356DC 10px;
+  border-radius: 50%;
   justify-content: center;
   align-items: center;
 }
@@ -312,10 +330,10 @@ li {
 }
 
 @keyframes rotation {
-  from {
+  1% {
     transform: rotate(0deg);
   }
-  to {
+  100% {
     transform: rotate(360deg);
   }
 }
@@ -323,9 +341,9 @@ li {
   display: flex;
   width: 150px;
   height: 150px;
-  border-top: solid #99E2D0 6px;
-  border-bottom: solid #9356DC 6px;
-  border-radius: 100px;
+  border-top: solid #99E2D0 8px;
+  border-bottom: solid #9356DC 8px;
+  border-radius: 50%;
   justify-content: center;
   align-items: center;
 }
@@ -340,7 +358,7 @@ li {
   height: 100px;
   border-top: solid #99E2D0 6px;
   border-bottom: solid #9356DC 6px;
-  border-radius: 100px;
+  border-radius: 50%;
 }
 
 .utensils-loader-tiny {
@@ -590,7 +608,34 @@ h4 {
   color: #9356DC;
 }
 
+@media screen and (min-width: 768px) {
+  .notice {
+    margin-left: 0px;
+  }
+  .title_notice {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .notice_stage {
+    width: 60%;
+  }
+  .restaurant-card {
+    height: 300px;
+  }
+  .card-new {
+    width: 100px;
+    height: 50px;
+    left: 80%;
+    bottom: 200px;
+  }
+  .text-area {
+    top: 10px;
+  }
+}
 @media screen and (min-width: 992px) {
+  body {
+    height: 600px;
+  }
   .location {
     width: 50%;
   }
@@ -621,7 +666,7 @@ h4 {
     left: 20%;
   }
   .notice_stage {
-    width: 70%;
+    width: 80%;
     position: relative;
     right: 15%;
   }
@@ -646,31 +691,7 @@ h4 {
     top: 20px;
   }
   .card-new {
-    left: 80%;
-  }
-}
-@media screen and (min-width: 768px) {
-  .notice {
-    margin-left: 0px;
-  }
-  .title_notice {
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .notice_stage {
-    width: 60%;
-  }
-  .restaurant-card {
-    height: 300px;
-  }
-  .card-new {
-    width: 100px;
-    height: 50px;
-    left: 80%;
-    bottom: 200px;
-  }
-  .text-area {
-    top: 10px;
+    left: 75%;
   }
 }
 .img-area {
@@ -749,7 +770,7 @@ h2 {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-  width: 100%;
+  width: 90%;
   font-size: 12px;
 }
 

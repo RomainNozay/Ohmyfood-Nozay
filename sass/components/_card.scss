@@ -44,6 +44,7 @@
    justify-content: flex-end;
    align-items: flex-end;
    font-weight: bold;
+   width: 15%;
    
 }
 .meal_check{
@@ -54,12 +55,14 @@
     width: 0%;
     height:100%;
     border-radius: 0 20px 20px 0;
+    position: relative;
+    left: 2px;
     transform: scaleX(0);
     transform-origin:  100% 0%;
-    transition: transform 1000ms;
+    transition: transform 500ms;
     span{
         transform: rotate(180deg);
-        transition: transform 1000ms;
+        transition: transform 500ms;
         display: block;
     }
 }
@@ -78,14 +81,13 @@
     justify-content: space-between;
     width: 100%;
     position: relative;
-    bottom: 10px;
-    padding: 0px 5%;
+    bottom: 5px;
+    padding:0px  5%;
     transform-origin:  left;
-    transition: all 1000ms;
-    &:hover{
-        width: 70%;
-    }
-       
+    transition: all 500ms;
+&:hover{
+    width: 80%;
+}
 
 &:hover + .meal_check{
     opacity: 100%;

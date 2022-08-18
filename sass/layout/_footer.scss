@@ -45,13 +45,30 @@ li{
 .fa-utensils:before{
     font-size: 10px;
 }
+@media screen and (min-width: 768px){
+    footer{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .footer_main{
+        top: 50px;
+        display: flex;
+        align-items: center;
+    } 
+    .logo-footer{
+        width: 60%;
+    }
+
+
+}
 @media screen and (min-width: 992px){
     .footer_main{
         display: flex;
         align-items: center;
         flex-direction: column;
         width: 100%;
-        top: -280px;
+        top: -300px;
     }
     footer{
         display: flex;
@@ -66,6 +83,8 @@ li{
         left: -4%;
     }
 }
+
+   
 .contact{
     text-decoration: none;
     color: white;
