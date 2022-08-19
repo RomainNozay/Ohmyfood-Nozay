@@ -20,12 +20,14 @@
 .utensils-loader{
     display: flex;
     width: 200px;
-    height: 200px;
-    border-top: solid $green 10px;
-    border-bottom:  solid $blue 10px;
-    border-radius: 50%;
+    height: 100px;
+    border-top-left-radius: 110px;
+    border-top-right-radius: 110px;
+    border: solid $green 10px;
+    border-bottom: 0;
     justify-content: center;
     align-items: center;
+    transform-origin: 50% bottom;
 }
 .utensils-loader{
     animation: rotation 3s alternate ease;
@@ -38,30 +40,82 @@
         transform: rotate(360deg);  
     }
 }
+.utensils-loader-2{
+    display: flex;
+    width: 200px;
+    height: 100px;
+    border-bottom-left-radius: 110px;
+    border-bottom-right-radius: 110px;
+    border: solid $blue 10px;
+    border-top: 0;
+    justify-content: center;
+    align-items: center; 
+    transform-origin: 50% top; 
+}
+.utensils-loader-2{
+    animation: rotation 1.5s alternate ease;
+}
+.medium-area{
+    position: relative;
+    top: 50px;
+}
 .utensils-loader-medium{
     display: flex;
     width: 150px;
-    height: 150px;
-    border-top: solid $green 8px;
-    border-bottom:  solid $blue 8px;
-    border-radius: 50%;
+    height: 75px;
+    border-top-left-radius: 110px;
+    border-top-right-radius: 110px;
+    border: solid $green 10px;
+    border-bottom: 0;
     justify-content: center;
-    align-items: center;}
+    align-items: center;
+    transform-origin: 50% bottom;}
 .utensils-loader-medium{
-    animation: rotation 2s alternate-reverse ease;
-
-}
+    animation: rotation 2.5s alternate-reverse ease;}
+.utensils-loader-medium-2{
+    display: flex;
+    width: 150px;
+        height: 75px;
+        border-bottom-left-radius: 110px;
+        border-bottom-right-radius: 110px;
+        border: solid $blue 10px;
+        border-top: 0;
+        justify-content: center;
+        align-items: center; 
+        transform-origin: 50% top; 
+    }
+    .utensils-loader-medium-2{
+        animation: rotation 2s alternate-reverse ease;}
+    .tiny-area{
+        position: relative;
+        top: 38px;
+    }
 .utensils-loader-tiny{
     display: flex;
     width: 100px;
-    height: 100px;
-    border-top: solid $green 6px;
-    border-bottom: solid $blue 6px;
-    border-radius: 50%;}
+    height: 50px;
+    border-top-left-radius: 110px;
+    border-top-right-radius: 110px;
+    border: solid $green 10px;
+    border-bottom: 0;
+    transform-origin: 50% bottom;}
 .utensils-loader-tiny{
-    animation: rotation 1.5s alternate-reverse ease;
+    animation: rotation 2s alternate-reverse ease;
 }   
-
+.utensils-loader-tiny-2{
+    display: flex;
+    width: 100px;
+        height: 50px;
+        border-bottom-left-radius: 110px;
+        border-bottom-right-radius: 110px;
+        border: solid $blue 10px;
+        border-top: 0;
+        justify-content: center;
+        align-items: center; 
+        transform-origin: 50% top; 
+    }
+    .utensils-loader-tiny-2{
+        animation: rotation 1.5s alternate-reverse ease;}
 .title_area{
     display: flex;
     flex-direction: column;
