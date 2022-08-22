@@ -37,7 +37,16 @@ ul{
 li{
     margin-top: 5px;
     font-size: 15px;
-
+}
+.text_footer{
+    &:hover{
+        border-bottom: solid 1px white;
+    }
+}
+.contact{
+    &:hover{
+        border-bottom: solid 1px white;
+    }
 }
 .fa-handshake-angle::before{
     font-size: 10px;
