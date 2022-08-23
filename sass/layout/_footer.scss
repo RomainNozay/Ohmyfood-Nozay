@@ -1,8 +1,15 @@
-footer{
+.footer_main{
     position: relative;
-    top:50px;
+    bottom: -40px;
     background-color: #2F4F4F;
     padding-bottom: 30px;
+}
+.footer-other{
+    position: relative;
+    bottom: 600px;
+    background-color: #2F4F4F;
+    padding-bottom: 30px;
+
 }
 .logo-footer{
     width: 30%;

@@ -61,6 +61,7 @@ button {
   transition: transform 4000ms;
   animation: menu-appearance 1s forwards;
   overflow: hidden;
+  z-index: 2;
 }
 @keyframes menu-appearance {
   from {
@@ -72,20 +73,151 @@ button {
     transform: translateY(-20px);
   }
 }
+.choice-card:hover span {
+  width: 75%;
+}
+.choice-card:hover + .meal_check {
+  opacity: 100%;
+  transform: scaleX(1.1);
+  width: 20%;
+}
+.choice-card:hover + .meal_check span {
+  transform: rotate(360deg);
+}
 
-.choice-card:nth-child(2) {
+.choice-card {
   animation-delay: 0.4s;
 }
 
-.choice-card:nth-child(3) {
+.choice-card2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 96%;
+  border-radius: 20px;
+  height: 60px;
+  margin-top: 20px;
+  box-shadow: 0px 0px 15px #99E2D0;
+  position: relative;
+  bottom: 40px;
+  cursor: pointer;
+  opacity: 0%;
+  transition: transform 4000ms;
+  animation: menu-appearance 1s forwards;
+  overflow: hidden;
+  z-index: 2;
+}
+@keyframes menu-appearance {
+  from {
+    opacity: 0%;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 100%;
+    transform: translateY(-20px);
+  }
+}
+.choice-card2:hover span {
+  width: 75%;
+}
+.choice-card2:hover + .meal_check2 {
+  opacity: 100%;
+  transform: scaleX(1.1);
+  width: 20%;
+}
+.choice-card2:hover + .meal_check2 span {
+  transform: rotate(360deg);
+}
+
+.choice-card2 {
   animation-delay: 0.6s;
 }
 
-.choice-card:nth-child(4) {
+.choice-card3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 96%;
+  border-radius: 20px;
+  height: 60px;
+  margin-top: 20px;
+  box-shadow: 0px 0px 15px #99E2D0;
+  position: relative;
+  bottom: 100px;
+  cursor: pointer;
+  opacity: 0%;
+  transition: transform 4000ms;
+  animation: menu-appearance 1s forwards;
+  overflow: hidden;
+  z-index: 2;
+}
+@keyframes menu-appearance {
+  from {
+    opacity: 0%;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 100%;
+    transform: translateY(-20px);
+  }
+}
+.choice-card3:hover span {
+  width: 75%;
+}
+.choice-card3:hover + .meal_check3 {
+  opacity: 100%;
+  transform: scaleX(1.1);
+  width: 20%;
+}
+.choice-card3:hover + .meal_check3 span {
+  transform: rotate(360deg);
+}
+
+.choice-card3 {
   animation-delay: 0.8s;
 }
 
-.choice-card:nth-child(5) {
+.choice-card4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 96%;
+  border-radius: 20px;
+  height: 60px;
+  margin-top: 20px;
+  box-shadow: 0px 0px 15px #99E2D0;
+  position: relative;
+  bottom: 160px;
+  cursor: pointer;
+  opacity: 0%;
+  transition: transform 4000ms;
+  animation: menu-appearance 1s forwards;
+  overflow: hidden;
+  z-index: 2;
+}
+@keyframes menu-appearance {
+  from {
+    opacity: 0%;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 100%;
+    transform: translateY(-20px);
+  }
+}
+.choice-card4:hover span {
+  width: 75%;
+}
+.choice-card4:hover + .meal_check4 {
+  opacity: 100%;
+  transform: scaleX(1.1);
+  width: 20%;
+}
+.choice-card4:hover + .meal_check4 span {
+  transform: rotate(360deg);
+}
+
+.choice-card4 {
   animation-delay: 1s;
 }
 
@@ -95,7 +227,7 @@ button {
   margin-right: 10px;
   align-items: flex-end;
   font-weight: bold;
-  width: 15%;
+  justify-content: flex-end;
 }
 
 .meal_check {
@@ -104,15 +236,91 @@ button {
   align-items: center;
   background-color: #99E2D0;
   width: 0%;
-  height: 100%;
+  height: 60px;
   border-radius: 0 20px 20px 0;
   position: relative;
   left: 2px;
   transform: scaleX(0);
   transform-origin: 100% 0%;
   transition: transform 500ms;
+  z-index: 1;
+  position: relative;
+  left: 76%;
+  bottom: 60px;
 }
 .meal_check span {
+  transform: rotate(180deg);
+  transition: transform 500ms;
+  display: block;
+}
+
+.meal_check2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #99E2D0;
+  width: 0%;
+  height: 60px;
+  border-radius: 0 20px 20px 0;
+  position: relative;
+  left: 2px;
+  transform: scaleX(0);
+  transform-origin: 100% 0%;
+  transition: transform 500ms;
+  z-index: 1;
+  position: relative;
+  left: 76%;
+  bottom: 120px;
+}
+.meal_check2 span {
+  transform: rotate(180deg);
+  transition: transform 500ms;
+  display: block;
+}
+
+.meal_check3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #99E2D0;
+  width: 0%;
+  height: 60px;
+  border-radius: 0 20px 20px 0;
+  position: relative;
+  left: 2px;
+  transform: scaleX(0);
+  transform-origin: 100% 0%;
+  transition: transform 500ms;
+  z-index: 1;
+  position: relative;
+  left: 76%;
+  bottom: 180px;
+}
+.meal_check3 span {
+  transform: rotate(180deg);
+  transition: transform 500ms;
+  display: block;
+}
+
+.meal_check4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #99E2D0;
+  width: 0%;
+  height: 60px;
+  border-radius: 0 20px 20px 0;
+  position: relative;
+  left: 2px;
+  transform: scaleX(0);
+  transform-origin: 100% 0%;
+  transition: transform 500ms;
+  z-index: 1;
+  position: relative;
+  left: 76%;
+  bottom: 240px;
+}
+.meal_check4 span {
   transform: rotate(180deg);
   transition: transform 500ms;
   display: block;
@@ -138,26 +346,22 @@ button {
   transform-origin: left;
   transition: all 500ms;
 }
-.text-area2:hover {
-  width: 75%;
-}
-.text-area2:hover + .meal_check {
-  opacity: 100%;
-  transform: scaleX(1.1);
-  width: 20%;
-}
-.text-area2:hover + .meal_check span {
-  transform: rotate(360deg);
-}
 
 @media screen and (min-width: 768px) {
   .choice-card {
     height: 80px;
   }
 }
-footer {
+.footer_main {
   position: relative;
-  top: 50px;
+  bottom: -40px;
+  background-color: #2F4F4F;
+  padding-bottom: 30px;
+}
+
+.footer-other {
+  position: relative;
+  bottom: 600px;
   background-color: #2F4F4F;
   padding-bottom: 30px;
 }
@@ -670,7 +874,7 @@ h4 {
   font-size: 15px;
 }
 
-.fa-heart {
+.fa-heart1 {
   position: relative;
   bottom: 55px;
   left: 85%;
@@ -679,7 +883,7 @@ h4 {
   color: white;
   transition: all 800ms;
 }
-.fa-heart:hover {
+.fa-heart1:hover {
   color: #9356DC;
 }
 
@@ -773,6 +977,7 @@ h4 {
   display: block;
   width: 100%;
   overflow: hidden;
+  height: 300px;
 }
 
 .restaurant-img-tall {
@@ -805,6 +1010,15 @@ h2 {
   font-size: 25px;
   position: relative;
   top: 0px;
+  position: relative;
+  bottom: 55px;
+  font-size: 25px;
+  text-shadow: 0 0 5px black;
+  color: white;
+  transition: all 800ms;
+}
+.heart-big:hover {
+  color: #9356DC;
 }
 
 .choice-area {
@@ -812,6 +1026,42 @@ h2 {
   flex-direction: column;
   margin-left: 2%;
   margin-top: 30px;
+}
+
+.choice-area2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2%;
+  margin-top: 30px;
+  position: relative;
+  bottom: 180px;
+}
+
+.choice-area25 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2%;
+  margin-top: 30px;
+  position: relative;
+  bottom: 220px;
+}
+
+.choice-area3 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2%;
+  margin-top: 30px;
+  position: relative;
+  bottom: 360px;
+}
+
+.choice-area35 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2%;
+  margin-top: 30px;
+  position: relative;
+  bottom: 380px;
 }
 
 .choice-title {
@@ -839,6 +1089,8 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  bottom: 640px;
 }
 
 .text-meal {

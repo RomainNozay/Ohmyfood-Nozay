@@ -2,6 +2,7 @@
     display: block;
     width: 100%;
     overflow: hidden;
+    height: 300px;
 }
 .restaurant-img-tall{
     width: 100%;
@@ -28,12 +29,53 @@ h2{
     font-size: 25px;
     position: relative;
     top: 0px;
+    position: relative;
+    bottom: 55px;
+    font-size: 25px;
+    text-shadow: 0 0 5px black;
+    color: white;
+    transition:all 800ms;
+    &:hover{
+        color: $blue;
+    }
 }
 .choice-area{
     display: flex;
     flex-direction: column;
     margin-left:2%;
     margin-top: 30px;
+}
+.choice-area2{
+    display: flex;
+    flex-direction: column;
+    margin-left:2%;
+    margin-top: 30px;
+    position: relative;
+    bottom: 180px;
+}
+.choice-area25{
+    display: flex;
+    flex-direction: column;
+    margin-left:2%;
+    margin-top: 30px;
+    position: relative;
+    bottom: 220px;
+}
+.choice-area3{
+    display: flex;
+    flex-direction: column;
+    margin-left:2%;
+    margin-top: 30px;
+    position: relative;
+    bottom: 360px;
+}
+.choice-area35{
+    display: flex;
+    flex-direction: column;
+    margin-left:2%;
+    margin-top: 30px;
+    position: relative;
+    bottom: 380px;
 }
 .choice-title{
     margin-left: 2%;
@@ -54,6 +96,8 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    bottom: 640px;
 }
 .text-meal{
     @include suspension;

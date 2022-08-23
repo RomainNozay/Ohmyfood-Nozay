@@ -13,7 +13,8 @@
     opacity: 0%;
     transition: transform 4000ms;
     animation: menu-appearance 1s forwards;
-    overflow: hidden;  
+    overflow: hidden;
+    z-index: 2;  
     @keyframes menu-appearance {
         from{
             opacity: 0%;
@@ -23,17 +24,150 @@
             opacity: 100%;
             transform: translateY(-20px);
             }
+    }
+    &:hover{
+     span{
+        width: 75%;
+     }
+    }
+    &:hover + .meal_check{
+        opacity: 100%;
+        transform: scaleX(1.1);
+        width: 20%;
+        span{
+            transform: rotate(360deg);
+        }
     }}
-.choice-card:nth-child(2){
+.choice-card{
     animation-delay: calc(2s/5);
 }
-.choice-card:nth-child(3){
+.choice-card2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 96%;
+    border-radius: 20px;
+    height: 60px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 15px $green;
+    position: relative;
+    bottom: 40px;
+    cursor: pointer;
+    opacity: 0%;
+    transition: transform 4000ms;
+    animation: menu-appearance 1s forwards;
+    overflow: hidden;
+    z-index: 2; 
+    @keyframes menu-appearance {
+        from{
+            opacity: 0%;
+            transform: translateY(0);
+        }
+        to{
+            opacity: 100%;
+            transform: translateY(-20px);
+            }
+    }
+    &:hover{
+     span{
+        width: 75%;
+     }
+    }
+    &:hover + .meal_check2{
+        opacity: 100%;
+        transform: scaleX(1.1);
+        width: 20%;
+        span{
+            transform: rotate(360deg);
+        }
+    }}
+.choice-card2{
     animation-delay: calc(3s/5);
 }
-.choice-card:nth-child(4){
+.choice-card3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 96%;
+    border-radius: 20px;
+    height: 60px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 15px $green;
+    position: relative;
+    bottom: 100px;
+    cursor: pointer;
+    opacity: 0%;
+    transition: transform 4000ms;
+    animation: menu-appearance 1s forwards;
+    overflow: hidden;
+    z-index: 2; 
+    @keyframes menu-appearance {
+        from{
+            opacity: 0%;
+            transform: translateY(0);
+        }
+        to{
+            opacity: 100%;
+            transform: translateY(-20px);
+            }
+    }
+    &:hover{
+     span{
+        width: 75%;
+     }
+    }
+    &:hover + .meal_check3{
+        opacity: 100%;
+        transform: scaleX(1.1);
+        width: 20%;
+        span{
+            transform: rotate(360deg);
+        }
+    }}
+.choice-card3{
     animation-delay: calc(4s/5);
 }
-.choice-card:nth-child(5){
+.choice-card4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 96%;
+    border-radius: 20px;
+    height: 60px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 15px $green;
+    position: relative;
+    bottom: 160px;
+    cursor: pointer;
+    opacity: 0%;
+    transition: transform 4000ms;
+    animation: menu-appearance 1s forwards;
+    overflow: hidden;
+    z-index: 2; 
+    @keyframes menu-appearance {
+        from{
+            opacity: 0%;
+            transform: translateY(0);
+        }
+        to{
+            opacity: 100%;
+            transform: translateY(-20px);
+            }
+    }
+    &:hover{
+     span{
+        width: 75%;
+     }
+    }
+    &:hover + .meal_check4{
+        opacity: 100%;
+        transform: scaleX(1.1);
+        width: 20%;
+        span{
+            transform: rotate(360deg);
+        }
+    }}
+.choice-card4{
     animation-delay: calc(5s/5);
 }
 .price{
@@ -42,7 +176,7 @@
    margin-right: 10px;
    align-items: flex-end;
    font-weight: bold;
-   width: 15%; 
+   justify-content: flex-end;
 }
 .meal_check{
     display: flex;
@@ -50,19 +184,89 @@
     align-items: center;
     background-color: $green;
     width: 0%;
-    height:100%;
+    height:60px;
     border-radius: 0 20px 20px 0;
     position: relative;
     left: 2px;
     transform: scaleX(0);
     transform-origin:  100% 0%;
     transition: transform 500ms;
+    z-index:1;
+    position: relative;
+    left: 76%;
+    bottom: 60px;
     span{
         transform: rotate(180deg);
         transition: transform 500ms;
         display: block;
     }}
-.fa-check{
+    .meal_check2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $green;
+        width: 0%;
+        height:60px;
+        border-radius: 0 20px 20px 0;
+        position: relative;
+        left: 2px;
+        transform: scaleX(0);
+        transform-origin:  100% 0%;
+        transition: transform 500ms;
+        z-index:1;
+        position: relative;
+        left: 76%;
+        bottom: 120px;
+        span{
+            transform: rotate(180deg);
+            transition: transform 500ms;
+            display: block;
+        }}
+    .meal_check3{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: $green;
+            width: 0%;
+            height:60px;
+            border-radius: 0 20px 20px 0;
+            position: relative;
+            left: 2px;
+            transform: scaleX(0);
+            transform-origin:  100% 0%;
+            transition: transform 500ms;
+            z-index:1;
+            position: relative;
+            left: 76%;
+            bottom: 180px;
+            span{
+                transform: rotate(180deg);
+                transition: transform 500ms;
+                display: block;
+            }}
+            .meal_check4{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: $green;
+                width: 0%;
+                height:60px;
+                border-radius: 0 20px 20px 0;
+                position: relative;
+                left: 2px;
+                transform: scaleX(0);
+                transform-origin:  100% 0%;
+                transition: transform 500ms;
+                z-index:1;
+                position: relative;
+                left: 76%;
+                bottom: 240px;
+                span{
+                    transform: rotate(180deg);
+                    transition: transform 500ms;
+                    display: block;
+                }}
+        .fa-check{
     color: $green;
     background-color: white;
     border-radius: 50px;
@@ -80,17 +284,7 @@
     bottom: 5px;
     transform-origin:  left;
     transition: all 500ms;
-&:hover{
-    width: 75%;
 }
-&:hover + .meal_check{
-    opacity: 100%;
-    transform: scaleX(1.1);
-    width: 20%;
-    span{
-        transform: rotate(360deg);
-    }
-}}
 @media screen and (min-width: 768px){
     .choice-card{
         height: 80px;
