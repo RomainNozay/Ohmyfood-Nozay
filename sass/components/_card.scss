@@ -14,7 +14,6 @@
     transition: transform 4000ms;
     animation: menu-appearance 1s forwards;
     overflow: hidden;  
-    
     @keyframes menu-appearance {
         from{
             opacity: 0%;
@@ -24,8 +23,7 @@
             opacity: 100%;
             transform: translateY(-20px);
             }
-    }
-}
+    }}
 .choice-card:nth-child(2){
     animation-delay: calc(2s/5);
 }
@@ -44,8 +42,7 @@
    justify-content: flex-end;
    align-items: flex-end;
    font-weight: bold;
-   width: 15%;
-   
+   width: 15%; 
 }
 .meal_check{
     display: flex;
@@ -64,8 +61,7 @@
         transform: rotate(180deg);
         transition: transform 500ms;
         display: block;
-    }
-}
+    }}
 .fa-check{
     color: $green;
     background-color: white;
@@ -88,7 +84,6 @@
 &:hover{
     width: 75%;
 }
-
 &:hover + .meal_check{
     opacity: 100%;
     transform: scaleX(1.1);
@@ -100,5 +95,4 @@
 @media screen and (min-width: 768px){
     .choice-card{
         height: 80px;
-    }
-}
+    }}

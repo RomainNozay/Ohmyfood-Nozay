@@ -39,8 +39,7 @@
     }
     100% {
         transform: rotate(360deg);  
-    }
-}
+    }}
 .utensils-loader-2{
     display: flex;
     width: 200px;
@@ -76,21 +75,21 @@
 .utensils-loader-medium-2{
     display: flex;
     width: 150px;
-        height: 75px;
-        border-bottom-left-radius: 110px;
-        border-bottom-right-radius: 110px;
-        border: solid $blue 10px;
-        border-top: 0;
-        justify-content: center;
-        align-items: center; 
-        transform-origin: 50% top; 
+    height: 75px;
+    border-bottom-left-radius: 110px;
+    border-bottom-right-radius: 110px;
+    border: solid $blue 10px;
+    border-top: 0;
+    justify-content: center;
+    align-items: center; 
+    transform-origin: 50% top; 
     }
-    .utensils-loader-medium-2{
-        animation: rotation 3s;}
-    .tiny-area{
-        position: relative;
-        top: 38px;
-    }
+.utensils-loader-medium-2{
+     animation: rotation 3s;}
+.tiny-area{
+    position: relative;
+    top: 38px;
+}
 .utensils-loader-tiny{
     display: flex;
     width: 100px;
@@ -106,17 +105,17 @@
 .utensils-loader-tiny-2{
     display: flex;
     width: 100px;
-        height: 50px;
-        border-bottom-left-radius: 110px;
-        border-bottom-right-radius: 110px;
-        border: solid $blue 10px;
-        border-top: 0;
-        justify-content: center;
-        align-items: center; 
-        transform-origin: 50% top; 
-    }
-    .utensils-loader-tiny-2{
-        animation: rotation 3s;}
+    height: 50px;
+    border-bottom-left-radius: 110px;
+    border-bottom-right-radius: 110px;
+    border: solid $blue 10px;
+    border-top: 0;
+    justify-content: center;
+    align-items: center; 
+    transform-origin: 50% top; 
+}
+.utensils-loader-tiny-2{
+    animation: rotation 3s;}
 .title_area{
     display: flex;
     flex-direction: column;
@@ -196,8 +195,8 @@ h1{
     align-items: center;
     justify-content: center;
     position: relative;
-    left:-30px}
-
+    left:-30px
+}
 .number_stage2{
     width: 30px;
     height: 30px;
@@ -222,7 +221,7 @@ h1{
     justify-content: center;
     position: relative;
     left:-38px
-    }
+}
 .logo_stage{
     font-size: 20px;
     color: grey;
@@ -323,7 +322,7 @@ h4{
     position: relative;
     top: 10px;
     right: 10px;
-    font-size: 30px;
+    font-size: 20px;
     text-shadow: 0 0 5px black;
     color: white;
     transition:all 800ms;
@@ -333,60 +332,60 @@ h4{
 }
 @media screen and (min-width: 768px){
     .notice{
-        margin-left: 0px;
+    margin-left: 0px;
     }
     .title_notice{
-        margin-left: auto;
-        margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
     }
     .notice_stage{
-        width: 60%;
+    width: 60%;
     }
     .restaurant-card{
-        height: 300px;
+    height: 300px;
     }
     .card-new{
-        width: 100px;
-        height: 50px;
-        left: 80%;
-        bottom: 200px;
+    width: 100px;
+    height: 50px;
+    left: 80%;
+    bottom: 200px;
     }
     .text-area{
-        top: 10px;
+    top: 10px;
     }
 }
 @media screen and (min-width: 992px){
     body{
-        height: 600px;
+    height: 600px;
     }
     .location{
-        width: 50%;
+    width: 50%;
     }
     .title_area{
-        width: 50%;
+    width: 50%;
     }
     .search_font{
-        width: 25%;
+    width: 25%;
     }
     .title_notice{
-        display: flex;
-        justify-content: center;
-        margin-left: auto;
-        margin-right: auto;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
     }
     .notice{
-       width: 40%;
-       position: relative;
-       left: 55%;
-       height: 350px;
-       bottom: 350px;
+    width: 40%;
+    position: relative;
+    left: 55%;
+    height: 350px;
+    bottom: 350px;
     }
     .notice_area{
-        display: flex;
-        flex-direction: column;
-        width: 90%;
-        position: relative;
-        left: 20%;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    position: relative;
+    left: 20%;
     }
    .notice_stage{
     width:80%;
@@ -413,6 +412,6 @@ h4{
     top: 20px;
    }
     .card-new{
-        left: 75%;
+    left: 75%;
     }
 }
