@@ -92,7 +92,7 @@ button {
 .price {
   font-size: 15px;
   display: flex;
-  justify-content: flex-end;
+  margin-right: 10px;
   align-items: flex-end;
   font-weight: bold;
   width: 15%;
@@ -135,7 +135,6 @@ button {
   width: 100%;
   position: relative;
   bottom: 5px;
-  padding: 0px 5%;
   transform-origin: left;
   transition: all 500ms;
 }
@@ -145,7 +144,7 @@ button {
 .text-area2:hover + .meal_check {
   opacity: 100%;
   transform: scaleX(1.1);
-  width: 15%;
+  width: 20%;
 }
 .text-area2:hover + .meal_check span {
   transform: rotate(360deg);
@@ -657,7 +656,7 @@ h1 {
   left: 4.5%;
   width: 90%;
   align-items: center;
-  bottom: 70px;
+  bottom: 10px;
 }
 
 h4 {
@@ -673,9 +672,9 @@ h4 {
 
 .fa-heart {
   position: relative;
-  top: 10px;
-  right: 10px;
-  font-size: 20px;
+  bottom: 55px;
+  left: 85%;
+  font-size: 25px;
   text-shadow: 0 0 5px black;
   color: white;
   transition: all 800ms;
@@ -848,6 +847,7 @@ h2 {
   text-overflow: ellipsis;
   width: 90%;
   font-size: 12px;
+  margin-left: 10px;
 }
 
 .order_font {

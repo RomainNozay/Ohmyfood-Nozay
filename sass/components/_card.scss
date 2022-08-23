@@ -39,7 +39,7 @@
 .price{
    font-size: 15px; 
    display: flex;
-   justify-content: flex-end;
+   margin-right: 10px;
    align-items: flex-end;
    font-weight: bold;
    width: 15%; 
@@ -78,7 +78,6 @@
     width: 100%;
     position: relative;
     bottom: 5px;
-    padding:0px  5%;
     transform-origin:  left;
     transition: all 500ms;
 &:hover{
@@ -87,7 +86,7 @@
 &:hover + .meal_check{
     opacity: 100%;
     transform: scaleX(1.1);
-    width: 15%;
+    width: 20%;
     span{
         transform: rotate(360deg);
     }
