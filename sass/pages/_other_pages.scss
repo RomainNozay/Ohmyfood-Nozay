@@ -44,9 +44,7 @@ h2{
 }
 .title-meat{
     margin-bottom: 0;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow : ellipsis;
+    @include suspension;
     width:100%;
 }
 .underline{
@@ -58,9 +56,7 @@ h2{
     align-items: center;
 }
 .text-meal{
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow : ellipsis;
+    @include suspension;
     width: 90%;
     font-size: 12px;
 }
