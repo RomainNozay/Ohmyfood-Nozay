@@ -1,24 +1,25 @@
-.footer_main{
+.footer_main {
     position: relative;
     bottom: -40px;
     background-color: #2F4F4F;
     padding-bottom: 30px;
 }
-.footer-other{
-    position: relative;
-    bottom: 600px;
+
+.footer-other {
     background-color: #2F4F4F;
     padding-bottom: 30px;
 
 }
-.logo-footer{
+
+.logo-footer {
     width: 30%;
     filter: brightness(2000%);
     position: relative;
     left: 5%;
     top: 20px;
 }
-ul{
+
+ul {
     list-style-type: none;
     position: relative;
     right: 30px;
@@ -29,79 +30,91 @@ ul{
     margin-bottom: 30px;
     cursor: pointer;
 }
-.fa-utensils::before{
+
+.fa-utensils::before {
     font-size: 10px;
     margin-right: 10px;
     position: relative;
     bottom: 2px;
 }
-.fa-handshake-angle::before{
+
+.fa-handshake-angle::before {
     font-size: 10px;
     margin-right: 5px;
     position: relative;
     bottom: 2px;
 }
-li{
+
+li {
     margin-top: 5px;
     font-size: 15px;
 }
-.text_footer{
-    &:hover{
+
+.text_footer {
+    &:hover {
         border-bottom: solid 1px white;
     }
 }
-.contact{
-    &:hover{
+
+.contact {
+    &:hover {
         border-bottom: solid 1px white;
     }
 }
-.fa-handshake-angle::before{
+
+.fa-handshake-angle::before {
     font-size: 10px;
 }
-.fa-utensils:before{
+
+.fa-utensils:before {
     font-size: 10px;
 }
-@media screen and (min-width: 768px){
-    .footer-other{
+
+.contact {
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (min-width: 768px) {
+    .footer-other {
         display: flex;
         align-items: center;
         flex-direction: column;
     }
-    .footer_main{
+
+    .footer_main {
         top: 50px;
         display: flex;
         align-items: center;
-    } 
-    .logo-footer{
-        width: 60%;
+        flex-direction: column;
     }
 
-
+    .logo-footer {
+        width: 60%;
+    }
 }
-@media screen and (min-width: 992px){
-    .footer_main{
+
+@media screen and (min-width: 992px) {
+    .footer_main {
         display: flex;
         align-items: center;
         flex-direction: column;
         width: 100%;
-        top: -300px;
     }
-    footer{
+
+    .footer-other {
         display: flex;
         align-items: center;
         flex-direction: column;
         width: 100%;
         position: relative;
-        top: -70px;
+        top: 100px;
     }
-    .logo-footer{
-        width:200px;
+
+    .logo-footer {
+        width: 200px;
         left: -4%;
     }
 }
 
-   
-.contact{
-    text-decoration: none;
-    color: white;
-}
+

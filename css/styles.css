@@ -57,11 +57,9 @@ button {
   position: relative;
   top: 20px;
   cursor: pointer;
-  opacity: 0%;
-  transition: transform 4000ms;
   animation: menu-appearance 1s forwards;
-  overflow: hidden;
-  z-index: 2;
+  opacity: 0%;
+  animation-delay: 0.4s;
 }
 @keyframes menu-appearance {
   from {
@@ -83,10 +81,7 @@ button {
 }
 .choice-card:hover + .meal_check span {
   transform: rotate(360deg);
-}
-
-.choice-card {
-  animation-delay: 0.4s;
+  opacity: 100%;
 }
 
 .choice-card2 {
@@ -101,21 +96,9 @@ button {
   position: relative;
   bottom: 40px;
   cursor: pointer;
-  opacity: 0%;
-  transition: transform 4000ms;
   animation: menu-appearance 1s forwards;
-  overflow: hidden;
-  z-index: 2;
-}
-@keyframes menu-appearance {
-  from {
-    opacity: 0%;
-    transform: translateY(0);
-  }
-  to {
-    opacity: 100%;
-    transform: translateY(-20px);
-  }
+  opacity: 0%;
+  animation-delay: 0.6s;
 }
 .choice-card2:hover span {
   max-width: 75%;
@@ -127,10 +110,7 @@ button {
 }
 .choice-card2:hover + .meal_check2 span {
   transform: rotate(360deg);
-}
-
-.choice-card2 {
-  animation-delay: 0.6s;
+  opacity: 100%;
 }
 
 .choice-card3 {
@@ -145,21 +125,9 @@ button {
   position: relative;
   bottom: 100px;
   cursor: pointer;
-  opacity: 0%;
-  transition: transform 4000ms;
   animation: menu-appearance 1s forwards;
-  overflow: hidden;
-  z-index: 2;
-}
-@keyframes menu-appearance {
-  from {
-    opacity: 0%;
-    transform: translateY(0);
-  }
-  to {
-    opacity: 100%;
-    transform: translateY(-20px);
-  }
+  opacity: 0%;
+  animation-delay: 0.8s;
 }
 .choice-card3:hover span {
   max-width: 75%;
@@ -171,10 +139,7 @@ button {
 }
 .choice-card3:hover + .meal_check3 span {
   transform: rotate(360deg);
-}
-
-.choice-card3 {
-  animation-delay: 0.8s;
+  opacity: 100%;
 }
 
 .choice-card4 {
@@ -189,21 +154,9 @@ button {
   position: relative;
   bottom: 160px;
   cursor: pointer;
-  opacity: 0%;
-  transition: transform 4000ms;
   animation: menu-appearance 1s forwards;
-  overflow: hidden;
-  z-index: 2;
-}
-@keyframes menu-appearance {
-  from {
-    opacity: 0%;
-    transform: translateY(0);
-  }
-  to {
-    opacity: 100%;
-    transform: translateY(-20px);
-  }
+  opacity: 0%;
+  animation-delay: 1s;
 }
 .choice-card4:hover span {
   max-width: 75%;
@@ -215,10 +168,7 @@ button {
 }
 .choice-card4:hover + .meal_check4 span {
   transform: rotate(360deg);
-}
-
-.choice-card4 {
-  animation-delay: 1s;
+  opacity: 100%;
 }
 
 .price {
@@ -238,20 +188,17 @@ button {
   width: 0%;
   height: 60px;
   border-radius: 0 20px 20px 0;
-  position: relative;
-  left: 2px;
   transform: scaleX(0);
   transform-origin: 100% 0%;
-  transition: transform 500ms;
-  z-index: 1;
+  transition: transform 300ms;
   position: relative;
   left: 76%;
   bottom: 60px;
 }
 .meal_check span {
   transform: rotate(180deg);
+  opacity: 0%;
   transition: transform 500ms;
-  display: block;
 }
 
 .meal_check2 {
@@ -262,12 +209,9 @@ button {
   width: 0%;
   height: 60px;
   border-radius: 0 20px 20px 0;
-  position: relative;
-  left: 2px;
   transform: scaleX(0);
   transform-origin: 100% 0%;
-  transition: transform 500ms;
-  z-index: 1;
+  transition: transform 300ms;
   position: relative;
   left: 76%;
   bottom: 120px;
@@ -275,7 +219,7 @@ button {
 .meal_check2 span {
   transform: rotate(180deg);
   transition: transform 500ms;
-  display: block;
+  opacity: 0%;
 }
 
 .meal_check3 {
@@ -286,12 +230,9 @@ button {
   width: 0%;
   height: 60px;
   border-radius: 0 20px 20px 0;
-  position: relative;
-  left: 2px;
   transform: scaleX(0);
   transform-origin: 100% 0%;
-  transition: transform 500ms;
-  z-index: 1;
+  transition: transform 300ms;
   position: relative;
   left: 76%;
   bottom: 180px;
@@ -299,7 +240,7 @@ button {
 .meal_check3 span {
   transform: rotate(180deg);
   transition: transform 500ms;
-  display: block;
+  opacity: 0%;
 }
 
 .meal_check4 {
@@ -310,11 +251,9 @@ button {
   width: 0%;
   height: 60px;
   border-radius: 0 20px 20px 0;
-  position: relative;
-  left: 2px;
   transform: scaleX(0);
   transform-origin: 100% 0%;
-  transition: transform 500ms;
+  transition: transform 300ms;
   z-index: 1;
   position: relative;
   left: 76%;
@@ -323,7 +262,7 @@ button {
 .meal_check4 span {
   transform: rotate(180deg);
   transition: transform 500ms;
-  display: block;
+  opacity: 0%;
 }
 
 .fa-check {
@@ -335,6 +274,7 @@ button {
   font-size: 10px;
   padding-left: 5px;
   padding-top: 5px;
+  transition-duration: 500ms;
 }
 
 .text-area2 {
@@ -342,8 +282,6 @@ button {
   justify-content: space-between;
   width: 100%;
   position: relative;
-  transform-origin: left;
-  transition: all 500ms;
 }
 
 @media screen and (min-width: 768px) {
@@ -392,8 +330,6 @@ button {
 }
 
 .footer-other {
-  position: relative;
-  bottom: 600px;
   background-color: #2F4F4F;
   padding-bottom: 30px;
 }
@@ -453,6 +389,11 @@ li {
   font-size: 10px;
 }
 
+.contact {
+  text-decoration: none;
+  color: white;
+}
+
 @media screen and (min-width: 768px) {
   .footer-other {
     display: flex;
@@ -463,6 +404,7 @@ li {
     top: 50px;
     display: flex;
     align-items: center;
+    flex-direction: column;
   }
   .logo-footer {
     width: 60%;
@@ -474,26 +416,20 @@ li {
     align-items: center;
     flex-direction: column;
     width: 100%;
-    top: -300px;
   }
-  footer {
+  .footer-other {
     display: flex;
     align-items: center;
     flex-direction: column;
     width: 100%;
     position: relative;
-    top: -70px;
+    top: 100px;
   }
   .logo-footer {
     width: 200px;
     left: -4%;
   }
 }
-.contact {
-  text-decoration: none;
-  color: white;
-}
-
 .header-main {
   display: flex;
   justify-content: center;
@@ -944,8 +880,8 @@ h4 {
   }
 }
 @media screen and (min-width: 992px) {
-  body {
-    height: 600px;
+  .main-index {
+    height: 1120px;
   }
   .location {
     width: 50%;
@@ -1005,6 +941,10 @@ h4 {
     left: 75%;
   }
 }
+.main-other {
+  height: 1400px;
+}
+
 .img-area {
   display: block;
   width: 100%;
@@ -1014,6 +954,14 @@ h4 {
 
 .restaurant-img-tall {
   width: 100%;
+}
+
+.menu {
+  height: 1000px;
+}
+
+.menu4 {
+  height: 1000px;
 }
 
 .meat-area {
@@ -1123,7 +1071,15 @@ h2 {
   justify-content: center;
   align-items: center;
   position: relative;
-  bottom: 640px;
+  bottom: 125px;
+}
+
+.order_area2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 45px;
 }
 
 .text-meal {
@@ -1155,11 +1111,35 @@ h2 {
 }
 
 @media screen and (min-width: 768px) {
+  .main-other {
+    height: 1700px;
+  }
+  .main-other2 {
+    height: 1900px;
+  }
+  .menu {
+    height: 1300px;
+  }
   .text-meal {
     font-size: 20px;
   }
+  .order_area {
+    bottom: 95px;
+  }
+  .order_area2 {
+    bottom: -360px;
+  }
 }
 @media screen and (min-width: 992px) {
+  .body-other {
+    height: 1480px;
+  }
+  .main-other {
+    height: 1100px;
+  }
+  .main-other2 {
+    height: 1300px;
+  }
   .img-area {
     height: 600px;
     overflow: hidden;
@@ -1172,6 +1152,12 @@ h2 {
     font-size: 35px;
   }
   .menu {
+    display: flex;
+    flex-direction: row;
+    height: 700px;
+  }
+  .menu4 {
+    height: 900px;
     display: flex;
     flex-direction: row;
   }
@@ -1198,7 +1184,10 @@ h2 {
   }
   .order_area {
     position: relative;
-    bottom: 300px;
+    bottom: 350px;
+  }
+  .order_area2 {
+    bottom: 400px;
   }
   .order_font {
     width: 25%;

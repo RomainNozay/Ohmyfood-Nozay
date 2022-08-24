@@ -1,21 +1,24 @@
-.header-main{
+.header-main {
     display: flex;
     justify-content: center;
     margin-top: 50px;
     margin-bottom: 5px;
     box-shadow: 0 5px 0 $green;
 }
-.header-other{
+
+.header-other {
     display: flex;
     align-items: center;
 }
-.logo-header{
+
+.logo-header {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
 }
-.button-arrow{
+
+.button-arrow {
     font-size: 20px;
     background-color: white;
     border: none;
@@ -24,14 +27,17 @@
     position: relative;
     bottom: 10px;
 }
-@media screen and (min-width: 992px){
-    .header-main{
-    width: 50%;
+
+@media screen and (min-width: 992px) {
+    .header-main {
+        width: 50%;
     }
-    .logo-header{
+
+    .logo-header {
         width: 30%;
     }
-    .button-arrow{
+
+    .button-arrow {
         font-size: 40px;
         margin-left: 20px;
     }

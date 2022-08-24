@@ -1,31 +1,49 @@
-.img-area{
+.main-other {
+    height: 1400px;
+}
+
+.img-area {
     display: block;
     width: 100%;
     overflow: hidden;
     height: 300px;
 }
-.restaurant-img-tall{
+
+.restaurant-img-tall {
     width: 100%;
 }
-.meat-area{
+
+.menu {
+    height: 1000px;
+}
+
+.menu4 {
+    height: 1000px;
+}
+
+.meat-area {
     display: flex;
     flex-direction: column;
-    border-radius: 25px 25px 0 0 ;
+    border-radius: 25px 25px 0 0;
     position: relative;
     bottom: 150px;
     background-color: white;
 }
-.meat-area-title{
+
+.meat-area-title {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-left: 2.5%;
     padding-right: 5%;
-    font-family: $title_police;}
-h2{
+    font-family: $title_police;
+}
+
+h2 {
     font-size: 25px;
 }
-.heart-big{
+
+.heart-big {
     font-size: 25px;
     position: relative;
     top: 0px;
@@ -34,159 +52,246 @@ h2{
     font-size: 25px;
     text-shadow: 0 0 5px black;
     color: white;
-    transition:all 800ms;
-    &:hover{
+    transition: all 800ms;
+
+    &:hover {
         color: $blue;
     }
 }
-.choice-area{
+
+.choice-area {
     display: flex;
     flex-direction: column;
-    margin-left:2%;
+    margin-left: 2%;
     margin-top: 30px;
 }
-.choice-area2{
+
+.choice-area2 {
     display: flex;
     flex-direction: column;
-    margin-left:2%;
+    margin-left: 2%;
     margin-top: 30px;
     position: relative;
     bottom: 180px;
 }
-.choice-area25{
+
+.choice-area25 {
     display: flex;
     flex-direction: column;
-    margin-left:2%;
+    margin-left: 2%;
     margin-top: 30px;
     position: relative;
     bottom: 220px;
 }
-.choice-area3{
+
+.choice-area3 {
     display: flex;
     flex-direction: column;
-    margin-left:2%;
+    margin-left: 2%;
     margin-top: 30px;
     position: relative;
     bottom: 360px;
 }
-.choice-area35{
+
+.choice-area35 {
     display: flex;
     flex-direction: column;
-    margin-left:2%;
+    margin-left: 2%;
     margin-top: 30px;
     position: relative;
     bottom: 380px;
 }
-.choice-title{
+
+.choice-title {
     margin-left: 2%;
 }
-.choice-title-texte{
-    font-size:20px;
+
+.choice-title-texte {
+    font-size: 20px;
     font-weight: lighter;
 }
-.title-meat{
+
+.title-meat {
     margin-bottom: 0;
     @include suspension;
-    width:100%;
+    width: 100%;
     font-weight: bold;
 }
-.underline{
+
+.underline {
     border-bottom: solid 3px $green;
 }
-.order_area{
+
+.order_area {
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    bottom: 640px;
+    bottom: 125px;
 }
-.text-meal{
+
+.order_area2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 45px;
+}
+
+.text-meal {
     @include suspension;
     width: 90%;
     font-size: 12px;
     margin-left: 10px;
 }
-.order_font{    
-    width:55%;
-    height:55px;
-    background: linear-gradient($pink,$blue);
+
+.order_font {
+    width: 55%;
+    height: 55px;
+    background: linear-gradient($pink, $blue);
     border-radius: 25px;
     color: white;
-    border:none;
+    border: none;
     box-shadow: 0 0 5px $pink;
     cursor: pointer;
     font-weight: bold;
-    &:hover{
+
+    &:hover {
         transform: scale(1.05);
     }
 }
-.search_text{
+
+.search_text {
     font-size: 20px;
 }
-@media screen and (min-width: 768px){
-    .text-meal{
-    font-size: 20px;
-}}
-@media screen and (min-width: 992px){
-   .img-area{
-    height: 600px;
-    overflow: hidden;
-    object-fit: contain;
-   }
-   h2{
-    font-size: 45px;
-   }
-    .heart-big{
-    font-size: 35px;
-   }
-    .menu{
-    display: flex;
-    flex-direction: row;
-  }
-  .choice-area{
-    width: 30%;
-  }
-  .choice-area2{
-    width: 30%;
-  }
-  .choice-area25{
-    width: 30%;
-  }
-  .choice-area3{
-    width: 30%;
-  }
-  .choice-area35{
-    width: 30%;
-  }
-  .choice-title-texte{
-    font-size: 30px;
-  }
-  .text-meal{
-    font-size: 13px;
-  }
-  .order_area{
-    position: relative;
-    bottom: 300px;
+
+@media screen and (min-width: 768px) {
+    .main-other {
+        height: 1700px;
     }
-  .order_font{
-    width: 25%;
+
+    .main-other2 {
+        height: 1900px;
     }
-  .search_text{
-    font-size: 30px;
+
+    .menu {
+        height: 1300px;
     }
-    .choice-area{
+
+    .text-meal {
+        font-size: 20px;
+    }
+
+    .order_area {
+        bottom: 95px;
+    }
+
+    .order_area2 {
+        bottom: -360px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .body-other {
+        height: 1480px;
+    }
+
+    .main-other {
+        height: 1100px;
+    }
+
+    .main-other2 {
+        height: 1300px;
+    }
+
+    .img-area {
+        height: 600px;
+        overflow: hidden;
+        object-fit: contain;
+    }
+
+    h2 {
+        font-size: 45px;
+    }
+
+    .heart-big {
+        font-size: 35px;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: row;
+        height: 700px;
+    }
+
+    .menu4 {
+        height: 900px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .choice-area {
+        width: 30%;
+    }
+
+    .choice-area2 {
+        width: 30%;
+    }
+
+    .choice-area25 {
+        width: 30%;
+    }
+
+    .choice-area3 {
+        width: 30%;
+    }
+
+    .choice-area35 {
+        width: 30%;
+    }
+
+    .choice-title-texte {
+        font-size: 30px;
+    }
+
+    .text-meal {
+        font-size: 13px;
+    }
+
+    .order_area {
+        position: relative;
+        bottom: 350px;
+    }
+
+    .order_area2 {
+        bottom: 400px;
+    }
+
+    .order_font {
+        width: 25%;
+    }
+
+    .search_text {
+        font-size: 30px;
+    }
+
+    .choice-area {
         bottom: 0;
     }
-    .choice-area2{
+
+    .choice-area2 {
         bottom: 0;
     }
-    .choice-area25{
+
+    .choice-area25 {
         bottom: 0;
     }
-    .choice-area3{
+
+    .choice-area3 {
         bottom: 0;
     }
-    .choice-area35{
+
+    .choice-area35 {
         bottom: 0;
     }
 }
