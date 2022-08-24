@@ -88,6 +88,7 @@ h2{
     margin-bottom: 0;
     @include suspension;
     width:100%;
+    font-weight: bold;
 }
 .underline{
     border-bottom: solid 3px $green;
@@ -102,7 +103,7 @@ h2{
 .text-meal{
     @include suspension;
     width: 90%;
-    font-size: 12px;
+    font-size: 13px;
     margin-left: 10px;
 }
 .order_font{    

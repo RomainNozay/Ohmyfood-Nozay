@@ -27,7 +27,7 @@
     }
     &:hover{
      span{
-        width: 75%;
+        max-width: 75%;
      }
     }
     &:hover + .meal_check{
@@ -70,7 +70,7 @@
     }
     &:hover{
      span{
-        width: 75%;
+        max-width: 75%;
      }
     }
     &:hover + .meal_check2{
@@ -113,7 +113,7 @@
     }
     &:hover{
      span{
-        width: 75%;
+        max-width: 75%;
      }
     }
     &:hover + .meal_check3{
@@ -156,7 +156,7 @@
     }
     &:hover{
      span{
-        width: 75%;
+        max-width: 75%;
      }
     }
     &:hover + .meal_check4{
@@ -281,7 +281,6 @@
     justify-content: space-between;
     width: 100%;
     position: relative;
-    bottom: 5px;
     transform-origin:  left;
     transition: all 500ms;
 }

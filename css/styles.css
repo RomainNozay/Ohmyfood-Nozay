@@ -74,7 +74,7 @@ button {
   }
 }
 .choice-card:hover span {
-  width: 75%;
+  max-width: 75%;
 }
 .choice-card:hover + .meal_check {
   opacity: 100%;
@@ -118,7 +118,7 @@ button {
   }
 }
 .choice-card2:hover span {
-  width: 75%;
+  max-width: 75%;
 }
 .choice-card2:hover + .meal_check2 {
   opacity: 100%;
@@ -162,7 +162,7 @@ button {
   }
 }
 .choice-card3:hover span {
-  width: 75%;
+  max-width: 75%;
 }
 .choice-card3:hover + .meal_check3 {
   opacity: 100%;
@@ -206,7 +206,7 @@ button {
   }
 }
 .choice-card4:hover span {
-  width: 75%;
+  max-width: 75%;
 }
 .choice-card4:hover + .meal_check4 {
   opacity: 100%;
@@ -342,7 +342,6 @@ button {
   justify-content: space-between;
   width: 100%;
   position: relative;
-  bottom: 5px;
   transform-origin: left;
   transition: all 500ms;
 }
@@ -1079,6 +1078,7 @@ h2 {
   white-space: nowrap;
   text-overflow: ellipsis;
   width: 100%;
+  font-weight: bold;
 }
 
 .underline {
@@ -1098,7 +1098,7 @@ h2 {
   white-space: nowrap;
   text-overflow: ellipsis;
   width: 90%;
-  font-size: 12px;
+  font-size: 13px;
   margin-left: 10px;
 }
 
