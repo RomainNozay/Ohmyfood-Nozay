@@ -103,7 +103,7 @@ h2{
 .text-meal{
     @include suspension;
     width: 90%;
-    font-size: 13px;
+    font-size: 12px;
     margin-left: 10px;
 }
 .order_font{    
@@ -123,6 +123,10 @@ h2{
 .search_text{
     font-size: 20px;
 }
+@media screen and (min-width: 768px){
+    .text-meal{
+    font-size: 20px;
+}}
 @media screen and (min-width: 992px){
    .img-area{
     height: 600px;
@@ -132,27 +136,57 @@ h2{
    h2{
     font-size: 45px;
    }
-   .heart-big{
+    .heart-big{
     font-size: 35px;
    }
-  .menu{
+    .menu{
     display: flex;
     flex-direction: row;
   }
   .choice-area{
     width: 30%;
   }
+  .choice-area2{
+    width: 30%;
+  }
+  .choice-area25{
+    width: 30%;
+  }
+  .choice-area3{
+    width: 30%;
+  }
+  .choice-area35{
+    width: 30%;
+  }
   .choice-title-texte{
     font-size: 30px;
   }
+  .text-meal{
+    font-size: 13px;
+  }
   .order_area{
     position: relative;
-    bottom: 100px;
+    bottom: 300px;
     }
   .order_font{
     width: 25%;
     }
   .search_text{
     font-size: 30px;
+    }
+    .choice-area{
+        bottom: 0;
+    }
+    .choice-area2{
+        bottom: 0;
+    }
+    .choice-area25{
+        bottom: 0;
+    }
+    .choice-area3{
+        bottom: 0;
+    }
+    .choice-area35{
+        bottom: 0;
     }
 }

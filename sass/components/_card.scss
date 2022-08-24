@@ -287,4 +287,38 @@
 @media screen and (min-width: 768px){
     .choice-card{
         height: 80px;
-    }}
+    }
+    .meal_check{
+        height: 80px;
+        bottom: 80px;
+    }
+    .choice-card2{
+        height: 80px;
+    }
+    .meal_check2{
+        height: 80px;
+        bottom: 140px;
+    }
+    .choice-card3{
+        height: 80px;
+    }
+    .meal_check3{
+        height: 80px;
+        bottom: 200px;
+
+    }.choice-card4{
+        height: 80px;
+    }
+    .meal_check4{
+        height: 80px;
+        bottom: 260px;
+    }
+    .price{
+        font-size: 20px;
+    }
+    }
+    @media screen and (min-width: 992px){
+        .price{
+            font-size: 15px;
+        }
+    }
