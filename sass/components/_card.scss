@@ -17,7 +17,8 @@
 
     &:hover {
         span {
-            max-width: 75%;
+            width: 75%;
+            
         }
     }
 
@@ -40,7 +41,7 @@
 
     &:hover {
         span {
-            max-width: 75%;
+            width: 75%;
         }
     }
 
@@ -63,7 +64,7 @@
 
     &:hover {
         span {
-            max-width: 75%;
+            width: 75%;
         }
     }
 
@@ -172,7 +173,7 @@
     justify-content: space-between;
     width: 100%;
     position: relative;
-    transition: all 500ms;
+    transition: all 400ms;
 }
 
 @media screen and (min-width: 768px) {
