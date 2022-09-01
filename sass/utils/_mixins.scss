@@ -16,6 +16,7 @@
     cursor: pointer;
     animation: menu-appearance 1s forwards;
     opacity: 0%;
+    z-index: 1;
 }
 @mixin meal-check{
     display: flex;
