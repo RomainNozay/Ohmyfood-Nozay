@@ -1,17 +1,6 @@
 .choice-card {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 96%;
-    border-radius: 20px;
-    height: 60px;
-    margin-top: 20px;
-    box-shadow: 0px 0px 15px $green;
-    position: relative;
+    @include card-meal; 
     top: 20px;
-    cursor: pointer;
-    animation: menu-appearance 1s forwards;
-    opacity: 0%;
     animation-delay: calc(2s/5);
 
     @keyframes menu-appearance {
@@ -45,19 +34,8 @@
 }
 
 .choice-card2 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 96%;
-    border-radius: 20px;
-    height: 60px;
-    margin-top: 20px;
-    box-shadow: 0px 0px 15px $green;
-    position: relative;
+    @include card-meal;
     bottom: 40px;
-    cursor: pointer;
-    animation: menu-appearance 1s forwards;
-    opacity: 0%;
     animation-delay: calc(3s/5);
 
     &:hover {
@@ -79,19 +57,8 @@
 }
 
 .choice-card3 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 96%;
-    border-radius: 20px;
-    height: 60px;
-    margin-top: 20px;
-    box-shadow: 0px 0px 15px $green;
-    position: relative;
+    @include card-meal;
     bottom: 100px;
-    cursor: pointer;
-    animation: menu-appearance 1s forwards;
-    opacity: 0%;
     animation-delay: calc(4s/5);
 
     &:hover {
@@ -113,19 +80,8 @@
 }
 
 .choice-card4 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 96%;
-    border-radius: 20px;
-    height: 60px;
-    margin-top: 20px;
-    box-shadow: 0px 0px 15px $green;
-    position: relative;
+    @include card-meal;
     bottom: 160px;
-    cursor: pointer;
-    animation: menu-appearance 1s forwards;
-    opacity: 0%;
     animation-delay: calc(5s/5);
 
     &:hover {
@@ -156,18 +112,7 @@
 }
 
 .meal_check {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: $green;
-    width: 0%;
-    height: 60px;
-    border-radius: 0 20px 20px 0;
-    transform: scaleX(0);
-    transform-origin: 100% 0%;
-    transition: transform 300ms;
-    position: relative;
-    left: 76%;
+    @include meal-check;
     bottom: 60px;
 
     span {
@@ -178,18 +123,7 @@
 }
 
 .meal_check2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: $green;
-    width: 0%;
-    height: 60px;
-    border-radius: 0 20px 20px 0;
-    transform: scaleX(0);
-    transform-origin: 100% 0%;
-    transition: transform 300ms;
-    position: relative;
-    left: 76%;
+    @include meal-check;
     bottom: 120px;
 
     span {
@@ -200,18 +134,7 @@
 }
 
 .meal_check3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: $green;
-    width: 0%;
-    height: 60px;
-    border-radius: 0 20px 20px 0;
-    transform: scaleX(0);
-    transform-origin: 100% 0%;
-    transition: transform 300ms;
-    position: relative;
-    left: 76%;
+    @include meal-check;
     bottom: 180px;
 
     span {
@@ -222,19 +145,7 @@
 }
 
 .meal_check4 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: $green;
-    width: 0%;
-    height: 60px;
-    border-radius: 0 20px 20px 0;
-    transform: scaleX(0);
-    transform-origin: 100% 0%;
-    transition: transform 300ms;
-    z-index: 1;
-    position: relative;
-    left: 76%;
+    @include meal-check;
     bottom: 240px;
 
     span {
