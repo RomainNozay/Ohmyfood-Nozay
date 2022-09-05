@@ -473,7 +473,7 @@ li {
     width: 50%;
   }
   .logo-footer {
-    width: 50%;
+    width: 30%;
   }
   .logo-footer-other {
     width: 60%;
@@ -545,7 +545,7 @@ li {
     box-shadow: none;
   }
   .logo-header {
-    width: 90%;
+    width: 60%;
     height: 200%;
     position: relative;
     top: 50px;
@@ -567,7 +567,7 @@ li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  animation: fadeout 0.1s 5s forwards;
+  animation: fadeout 0.1s 6s forwards;
 }
 
 @keyframes fadeout {
@@ -587,14 +587,14 @@ li {
   justify-content: center;
   position: absolute;
   opacity: 0%;
-  animation: zoom 1.5s;
+  animation: zoom 1.8s;
 }
 
 @keyframes zoom {
   1% {
     transform: scale(0);
   }
-  70% {
+  65% {
     transform: scale(1);
     opacity: 100%;
   }
@@ -612,8 +612,8 @@ li {
   justify-content: center;
   position: absolute;
   opacity: 0%;
-  animation: zoom 1.5s;
-  animation-delay: 1.5s;
+  animation: zoom 1.8s;
+  animation-delay: 2s;
 }
 
 .notice_stage_loader3 {
@@ -625,8 +625,8 @@ li {
   justify-content: center;
   position: absolute;
   opacity: 0%;
-  animation: zoom 1.5s;
-  animation-delay: 3s;
+  animation: zoom 1.8s;
+  animation-delay: 4s;
 }
 
 .number_stage_loader {
