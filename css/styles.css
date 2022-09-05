@@ -435,6 +435,7 @@ li {
     display: flex;
     justify-content: center;
     width: 50%;
+    top: 20px;
   }
   .box-logo {
     width: 50%;
@@ -454,6 +455,7 @@ li {
     align-items: center;
     width: 100%;
     flex-direction: row;
+    bottom: -150px;
   }
   .footer-other {
     display: flex;
@@ -592,6 +594,10 @@ li {
   1% {
     transform: scale(0);
   }
+  70% {
+    transform: scale(1);
+    opacity: 100%;
+  }
   100% {
     transform: scale(1);
     opacity: 100%;
@@ -641,6 +647,7 @@ li {
   margin-left: 20px;
   margin-right: 20px;
   font-weight: bold;
+  white-space: nowrap;
 }
 
 .title_area {
@@ -931,15 +938,15 @@ h4 {
 }
 @media screen and (min-width: 992px) {
   .notice_stage_loader {
-    width: 60%;
+    width: 90%;
     height: 30%;
   }
   .notice_stage_loader2 {
-    width: 60%;
+    width: 90%;
     height: 30%;
   }
   .notice_stage_loader3 {
-    width: 60%;
+    width: 90%;
     height: 30%;
   }
   .number_stage_loader {
@@ -1013,13 +1020,23 @@ h4 {
   }
   .restaurant-card {
     width: 45%;
-    height: 350px;
+    height: 400px;
   }
   .text-area {
     bottom: 95px;
   }
+  h4 {
+    font-size: 30px;
+  }
+  .adress {
+    font-size: 20px;
+  }
   .card-new {
     left: 75%;
+  }
+  .fa-heart1 {
+    bottom: 70px;
+    font-size: 30px;
   }
 }
 .main-other {
