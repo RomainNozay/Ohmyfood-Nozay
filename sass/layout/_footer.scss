@@ -18,15 +18,19 @@
     left: 5%;
     top: 20px;
 }
-
+.logo-footer-other {
+    width: 30%;
+    filter: brightness(2000%);
+    position: relative;
+    left: 5%;
+    top: 20px;
+}
 ul {
     list-style-type: none;
     position: relative;
-    right: 30px;
     top: 10px;
     color: white;
     font-size: 18px;
-    margin-left: 10px;
     margin-bottom: 30px;
     cursor: pointer;
 }
@@ -75,22 +79,32 @@ li {
     color: white;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
+    .footer_main {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        flex-direction: row;
+    }
+
     .footer-other {
         display: flex;
         align-items: center;
-        flex-direction: column;
+        width: 100%;
+        position: relative;
+        top: 100px;
     }
-
-    .footer_main {
-        top: 50px;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
+    .box-logo{
+        width: 50%;
     }
-
     .logo-footer {
+        width: 90%;
+    }
+    .logo-footer-other{
         width: 60%;
+    }
+    .box-logo-other{
+        width:50%;
     }
 }
 
@@ -98,22 +112,47 @@ li {
     .footer_main {
         display: flex;
         align-items: center;
-        flex-direction: column;
         width: 100%;
+        flex-direction: row;
     }
 
     .footer-other {
         display: flex;
         align-items: center;
-        flex-direction: column;
         width: 100%;
         position: relative;
         top: 100px;
     }
-
+    .box-logo{
+        width: 50%;
+    }
+    .box-logo-other{
+        width:50%;
+    }
     .logo-footer {
-        width: 200px;
-        left: -4%;
+        width: 90%;
+    }
+    .logo-footer-other{
+        width: 60%;
+    }
+    ul{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        width: 50%;
+    }
+    .first-column{
+        margin-right: 10%;
+    }
+    li{
+        font-size: 20px;
+    }
+    .fa-handshake-angle::before {
+        font-size: 20px;
+    }
+    
+    .fa-utensils:before {
+        font-size: 20px;
     }
 }
 

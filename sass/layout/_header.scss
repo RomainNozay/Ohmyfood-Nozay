@@ -9,6 +9,7 @@
 .header-other {
     display: flex;
     align-items: center;
+    margin-top: 10px;
 }
 
 .logo-header {
@@ -17,7 +18,11 @@
     margin-right: auto;
     margin-bottom: 20px;
 }
-
+.logo-header-other{
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 10px;
+}
 .button-arrow {
     font-size: 20px;
     background-color: white;
@@ -27,14 +32,21 @@
     position: relative;
     bottom: 10px;
 }
-
+.link-index{
+    width: 100%;
+}
 @media screen and (min-width: 992px) {
     .header-main {
         width: 50%;
+        height: 50px;
+        box-shadow: none;
     }
-
+    
     .logo-header {
-        width: 30%;
+        width: 90%;
+        height: 200%;
+        position: relative;
+        top: 50px;
     }
 
     .button-arrow {
