@@ -176,7 +176,7 @@
     transition-duration: 400ms;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 426px) {
     .choice-card {
         height: 80px;
     }
@@ -219,7 +219,7 @@
     }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 768px) {
     .price {
         font-size: 15px;
     }

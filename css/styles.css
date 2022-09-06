@@ -288,7 +288,7 @@ button {
   transition-duration: 400ms;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 426px) {
   .choice-card {
     height: 80px;
   }
@@ -321,7 +321,7 @@ button {
     font-size: 20px;
   }
 }
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 768px) {
   .price {
     font-size: 15px;
   }
@@ -353,7 +353,7 @@ button {
   top: 20px;
 }
 
-ul {
+.ul {
   list-style-type: none;
   position: relative;
   top: 10px;
@@ -361,6 +361,8 @@ ul {
   font-size: 18px;
   margin-bottom: 30px;
   cursor: pointer;
+  left: 5%;
+  margin-top: 25px;
 }
 
 .fa-utensils::before {
@@ -385,7 +387,7 @@ ul {
   display: none;
 }
 
-li {
+.li {
   margin-top: 5px;
   font-size: 15px;
 }
@@ -411,7 +413,7 @@ li {
   color: white;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 426px) {
   .footer_main {
     display: flex;
     align-items: center;
@@ -437,12 +439,13 @@ li {
   .box-logo-other {
     width: 50%;
   }
-  ul {
+  .ul {
     position: relative;
     display: flex;
     justify-content: center;
     width: 50%;
     top: 20px;
+    left: 0%;
   }
   .box-logo {
     width: 50%;
@@ -452,7 +455,7 @@ li {
   .first-column {
     margin-right: 10%;
   }
-  li {
+  .li {
     font-size: 15px;
   }
   .fa-file::before {
@@ -466,7 +469,7 @@ li {
     font-size: 10px;
   }
 }
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 768px) {
   .footer_main {
     display: flex;
     align-items: center;
@@ -495,7 +498,7 @@ li {
   .logo-footer-other {
     width: 40%;
   }
-  ul {
+  .ul {
     position: relative;
     display: flex;
     justify-content: center;
@@ -503,21 +506,22 @@ li {
   }
   .first-column {
     margin-right: 10%;
+    display: block;
   }
-  li {
-    font-size: 20px;
+  .li {
+    font-size: 15px;
   }
   .fa-handshake-angle::before {
-    font-size: 20px;
+    font-size: 10px;
   }
   .fa-utensils:before {
-    font-size: 20px;
+    font-size: 10px;
   }
   .fa-file::before {
-    font-size: 20px;
+    font-size: 10px;
   }
   .fa-envelope::before {
-    font-size: 20px;
+    font-size: 10px;
   }
 }
 .header-main {
@@ -562,7 +566,7 @@ li {
   width: 100%;
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 768px) {
   .header-main {
     width: 50%;
     height: 50px;
@@ -1066,7 +1070,7 @@ h4 {
   color: #9356DC;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 426px) {
   .background-loader-responsive {
     display: flex;
   }
@@ -1094,7 +1098,7 @@ h4 {
     font-size: 30px;
   }
   .main-index {
-    height: 1720px;
+    height: 1690px;
   }
   .notice {
     display: none;
@@ -1105,6 +1109,12 @@ h4 {
   }
   .title_area {
     background-color: white;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  .subtitle_title_area {
+    font-size: 13px;
   }
   .notice_stage {
     width: 60%;
@@ -1122,7 +1132,7 @@ h4 {
     top: 10px;
   }
 }
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 768px) {
   .notice_stage_loader {
     width: 90%;
     height: 30%;
@@ -1144,21 +1154,24 @@ h4 {
     font-size: 45px;
   }
   .main-index {
-    height: 1170px;
+    height: 1040px;
   }
   .location {
-    width: 50%;
+    width: 49%;
     position: relative;
     left: 50%;
     bottom: 100px;
     border-radius: 20px;
   }
   .title_area {
-    width: 50%;
+    width: 49%;
     position: relative;
     left: 50%;
     bottom: 100px;
     background-color: white;
+  }
+  .subtitle_title_area {
+    font-size: 12px;
   }
   .search_font {
     width: 50%;
@@ -1206,7 +1219,7 @@ h4 {
   }
   .restaurant-card {
     width: 45%;
-    height: 400px;
+    height: 350px;
   }
   .text-area {
     bottom: 95px;
@@ -1395,7 +1408,7 @@ h2 {
   font-size: 20px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 426px) {
   .main-other {
     height: 1700px;
   }
@@ -1419,7 +1432,7 @@ h2 {
     font-size: 35px;
   }
 }
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 768px) {
   .body-other {
     height: 1400px;
   }

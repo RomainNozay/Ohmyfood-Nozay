@@ -484,7 +484,7 @@ h4 {
     }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 426px) {
     .background-loader-responsive {
         display: flex;
     }
@@ -512,7 +512,7 @@ h4 {
         font-size: 30px;
     }
     .main-index{
-        height: 1720px;
+        height: 1690px;
     }
     .notice{
         display: none;
@@ -524,6 +524,12 @@ h4 {
     }
     .title_area{
         background-color: white;
+    }
+    h1{
+        font-size: 20px;
+    }
+    .subtitle_title_area{
+        font-size: 13px;
     }
     .notice_stage {
         width: 60%;
@@ -545,7 +551,7 @@ h4 {
     }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 768px) {
     .notice_stage_loader{
         width: 90%;
         height: 30%;
@@ -567,11 +573,11 @@ h4 {
         font-size: 45px;
     }
     .main-index {
-        height: 1170px;
+        height: 1040px;
     }
 
     .location {
-        width: 50%;
+        width: 49%;
         position: relative;
         left: 50%;
         bottom: 100px;
@@ -579,13 +585,15 @@ h4 {
     }
 
     .title_area {
-        width: 50%;
+        width: 49%;
         position: relative;
         left: 50%;
         bottom: 100px;
         background-color: white;
     }
-
+    .subtitle_title_area{
+        font-size: 12px;
+    }
     .search_font {
         width: 50%;
     }
@@ -639,7 +647,7 @@ h4 {
 
     .restaurant-card {
         width: 45%;
-        height: 400px;
+        height: 350px;
     }
 
     .text-area {

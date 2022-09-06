@@ -24,7 +24,7 @@
     left: 5%;
     top: 20px;
 }
-ul {
+.ul {
     list-style-type: none;
     position: relative;
     top: 10px;
@@ -32,6 +32,8 @@ ul {
     font-size: 18px;
     margin-bottom: 30px;
     cursor: pointer;
+    left: 5%;
+    margin-top: 25px;
 }
 
 .fa-utensils::before {
@@ -53,7 +55,7 @@ ul {
 .fa-envelope::before{
     display: none;
 }
-li {
+.li {
     margin-top: 5px;
     font-size: 15px;
 }
@@ -83,7 +85,7 @@ li {
     color: white;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 426px) {
     .footer_main {
         display: flex;
         align-items: center;
@@ -110,12 +112,13 @@ li {
     .box-logo-other{
         width:50%;
     }
-    ul{
+    .ul{
     position: relative;
     display: flex;
     justify-content: center;
     width: 50%;
     top: 20px;
+    left: 0%;
     }
     .box-logo{
     width: 50%;
@@ -125,7 +128,7 @@ li {
     .first-column{
     margin-right: 10%;
     }
-    li{
+    .li{
         font-size: 15px;
     }
     .fa-file::before{
@@ -140,7 +143,7 @@ li {
     }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 768px) {
     .footer_main {
         display: flex;
         align-items: center;
@@ -172,7 +175,7 @@ li {
     .logo-footer-other{
         width: 40%;
     }
-    ul{
+    .ul{
         position: relative;
         display: flex;
         justify-content: center;
@@ -180,22 +183,23 @@ li {
     }
     .first-column{
         margin-right: 10%;
+        display: block;
     }
-    li{
-        font-size: 20px;
+    .li{
+        font-size: 15px;
     }
     .fa-handshake-angle::before {
-        font-size: 20px;
+        font-size: 10px;
     }
     
     .fa-utensils:before {
-        font-size: 20px;
+        font-size: 10px;
     }
     .fa-file::before{
-        font-size: 20px;
+        font-size: 10px;
     }
     .fa-envelope::before{
-        font-size: 20px;
+        font-size: 10px;
     }
 }
 
