@@ -10,7 +10,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    animation: fadeout 0.1s 6s forwards;
+    animation: fadeout 0.1s 5.2s forwards;
 }
 @keyframes fadeout {
     from {
@@ -26,6 +26,7 @@
     height: 10%;
     border-radius: 20px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     position: absolute;
@@ -50,30 +51,32 @@
     height: 10%;
     border-radius: 20px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     position: absolute;
     opacity: 0%;
     animation: zoom 1.8s;
-    animation-delay: 2s;
+    animation-delay: 1.7s;
 }
 .notice_stage_loader3 {
     width: 90%;
     height: 10%;
     border-radius: 20px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     position: absolute;
     opacity: 0%;
     animation: zoom 1.8s;
-    animation-delay: 4s;
+    animation-delay: 3.4s;
 }
 .number_stage_loader {
-    width: 30px;
-    height: 30px;
+    width: 45px;
+    height: 45px;
     border-radius: 50px;
-    font-size: 15px;
+    font-size: 25px;
     color: white;
     background-color: $blue;
     display: flex;
@@ -82,7 +85,7 @@
     position: relative;
     }
 .text_stage_loader {
-    font-size: 15px;
+    font-size: 25px;
     margin-left: 20px;
     margin-right: 20px;
     font-weight: bold;
