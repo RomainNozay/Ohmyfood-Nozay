@@ -234,7 +234,9 @@
     font-weight: bold;
     white-space: nowrap;
     }
-
+.main-index{
+    height: 1880px;
+}
 .title_area {
     display: flex;
     flex-direction: column;
@@ -509,6 +511,9 @@ h4 {
     .text_stage_loader{
         font-size: 30px;
     }
+    .main-index{
+        height: 1720px;
+    }
     .notice{
         display: none;
     }
@@ -562,7 +567,7 @@ h4 {
         font-size: 45px;
     }
     .main-index {
-        height: 1020px;
+        height: 1170px;
     }
 
     .location {
