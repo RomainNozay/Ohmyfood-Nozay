@@ -1571,28 +1571,28 @@ h2 {
     right: 0px;
     top: 0px;
     writing-mode: horizontal-tb;
-    text-orientation: sideways-right;
+    text-orientation: sideways;
   }
   .choice-title1 {
     position: relative;
     right: 0px;
     top: 0px;
     writing-mode: horizontal-tb;
-    text-orientation: sideways-right;
+    text-orientation: sideways;
   }
   .choice-title2 {
     position: relative;
     left: 0px;
     top: 0px;
     writing-mode: horizontal-tb;
-    text-orientation: sideways-right;
+    text-orientation: sideways;
   }
   .choice-title3 {
     position: relative;
     left: 0px;
     top: 0px;
     writing-mode: horizontal-tb;
-    text-orientation: sideways-right;
+    text-orientation: sideways;
   }
   .choice-title-texte {
     font-size: 30px;
