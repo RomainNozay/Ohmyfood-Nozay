@@ -378,6 +378,14 @@ ul {
   bottom: 2px;
 }
 
+.fa-file::before {
+  display: none;
+}
+
+.fa-envelope::before {
+  display: none;
+}
+
 li {
   margin-top: 5px;
   font-size: 15px;
@@ -448,6 +456,16 @@ li {
   li {
     font-size: 15px;
   }
+  .fa-file::before {
+    display: flex;
+    margin-right: 5px;
+    font-size: 10px;
+  }
+  .fa-envelope::before {
+    display: flex;
+    margin-right: 5px;
+    font-size: 10px;
+  }
 }
 @media screen and (min-width: 992px) {
   .footer_main {
@@ -494,6 +512,12 @@ li {
     font-size: 20px;
   }
   .fa-utensils:before {
+    font-size: 20px;
+  }
+  .fa-file::before {
+    font-size: 20px;
+  }
+  .fa-envelope::before {
     font-size: 20px;
   }
 }
@@ -562,11 +586,151 @@ li {
   width: 100%;
   height: 100%;
   background-color: white;
-  opacity: 98%;
+  opacity: 90%;
   position: fixed;
   top: 0px;
   z-index: 1;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: fadeout 0.1s 3s forwards;
+}
+
+@keyframes fadeout {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-9999px);
+  }
+}
+.utensils-loader {
+  display: flex;
+  width: 200px;
+  height: 100px;
+  border-top-left-radius: 110px;
+  border-top-right-radius: 110px;
+  border: solid #99E2D0 10px;
+  border-bottom: 0;
+  justify-content: center;
+  align-items: center;
+  transform-origin: 50% bottom;
+}
+
+.utensils-loader {
+  animation: rotation 3s;
+}
+
+@keyframes rotation {
+  1% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.utensils-loader-2 {
+  display: flex;
+  width: 200px;
+  height: 100px;
+  border-bottom-left-radius: 110px;
+  border-bottom-right-radius: 110px;
+  border: solid #9356DC 10px;
+  border-top: 0;
+  justify-content: center;
+  align-items: center;
+  transform-origin: 50% top;
+}
+
+.utensils-loader-2 {
+  animation: rotation 3s;
+}
+
+.medium-area {
+  position: relative;
+  top: 50px;
+}
+
+.utensils-loader-medium {
+  display: flex;
+  width: 150px;
+  height: 75px;
+  border-top-left-radius: 110px;
+  border-top-right-radius: 110px;
+  border: solid #99E2D0 10px;
+  border-bottom: 0;
+  justify-content: center;
+  align-items: center;
+  transform-origin: 50% bottom;
+}
+
+.utensils-loader-medium {
+  animation: rotation 3s;
+}
+
+.utensils-loader-medium-2 {
+  display: flex;
+  width: 150px;
+  height: 75px;
+  border-bottom-left-radius: 110px;
+  border-bottom-right-radius: 110px;
+  border: solid #9356DC 10px;
+  border-top: 0;
+  justify-content: center;
+  align-items: center;
+  transform-origin: 50% top;
+}
+
+.utensils-loader-medium-2 {
+  animation: rotation 3s;
+}
+
+.tiny-area {
+  position: relative;
+  top: 38px;
+}
+
+.utensils-loader-tiny {
+  display: flex;
+  width: 100px;
+  height: 50px;
+  border-top-left-radius: 110px;
+  border-top-right-radius: 110px;
+  border: solid #99E2D0 10px;
+  border-bottom: 0;
+  transform-origin: 50% bottom;
+}
+
+.utensils-loader-tiny {
+  animation: rotation 3s;
+}
+
+.utensils-loader-tiny-2 {
+  display: flex;
+  width: 100px;
+  height: 50px;
+  border-bottom-left-radius: 110px;
+  border-bottom-right-radius: 110px;
+  border: solid #9356DC 10px;
+  border-top: 0;
+  justify-content: center;
+  align-items: center;
+  transform-origin: 50% top;
+}
+
+.utensils-loader-tiny-2 {
+  animation: rotation 3s;
+}
+
+.background-loader-responsive {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  opacity: 98%;
+  position: fixed;
+  top: 0px;
+  z-index: 1;
+  display: none;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -899,6 +1063,12 @@ h4 {
 }
 
 @media screen and (min-width: 768px) {
+  .background-loader-responsive {
+    display: flex;
+  }
+  .background-loader {
+    display: none;
+  }
   .notice_stage_loader {
     width: 80%;
     height: 20%;
@@ -920,11 +1090,14 @@ h4 {
     font-size: 30px;
   }
   .notice {
-    margin-left: 0px;
+    display: none;
   }
   .title_notice {
     margin-left: auto;
     margin-right: auto;
+  }
+  .title_area {
+    background-color: white;
   }
   .notice_stage {
     width: 60%;

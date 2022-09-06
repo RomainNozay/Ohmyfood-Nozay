@@ -48,7 +48,12 @@ ul {
     position: relative;
     bottom: 2px;
 }
-
+.fa-file::before{
+    display: none;
+}
+.fa-envelope::before{
+    display: none;
+}
 li {
     margin-top: 5px;
     font-size: 15px;
@@ -124,6 +129,16 @@ li {
     li{
         font-size: 15px;
     }
+    .fa-file::before{
+        display: flex;
+        margin-right: 5px;
+        font-size: 10px;
+    }
+    .fa-envelope::before{
+        display: flex;
+        margin-right: 5px;
+        font-size: 10px;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -175,6 +190,12 @@ li {
     }
     
     .fa-utensils:before {
+        font-size: 20px;
+    }
+    .fa-file::before{
+        font-size: 20px;
+    }
+    .fa-envelope::before{
         font-size: 20px;
     }
 }
