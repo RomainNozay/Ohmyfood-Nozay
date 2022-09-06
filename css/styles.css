@@ -322,7 +322,7 @@ button {
     font-size: 20px;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1024px) {
   .price {
     font-size: 15px;
   }
@@ -470,7 +470,7 @@ button {
     font-size: 10px;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1025px) {
   .footer_main {
     display: flex;
     align-items: center;
@@ -567,7 +567,7 @@ button {
   width: 100%;
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1025px) {
   .header-main {
     width: 50%;
     height: 50px;
@@ -1130,7 +1130,7 @@ h4 {
     bottom: 90%;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1025px) {
   .notice_stage_loader {
     width: 90%;
     height: 30%;
@@ -1344,6 +1344,10 @@ h2 {
   margin-left: 2%;
 }
 
+.choice-title2 {
+  margin-left: 2%;
+}
+
 .choice-title-texte {
   font-size: 20px;
   font-weight: lighter;
@@ -1419,7 +1423,7 @@ h2 {
   }
   .text-meal {
     font-size: 20px;
-    min-width: 400px;
+    min-width: 80%;
   }
   .order_area {
     bottom: 95px;
@@ -1431,7 +1435,85 @@ h2 {
     font-size: 35px;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
+  .menu {
+    position: relative;
+    bottom: 275px;
+    width: 98%;
+  }
+  .menu4 {
+    position: relative;
+    bottom: 260px;
+  }
+  .choice-area {
+    width: 60%;
+    position: relative;
+    left: 40%;
+  }
+  .choice-area2 {
+    width: 60%;
+    position: relative;
+    bottom: 282px;
+  }
+  .choice-area25 {
+    width: 60%;
+    position: relative;
+    bottom: 345px;
+  }
+  .choice-area3 {
+    width: 60%;
+    position: relative;
+    left: 40%;
+    bottom: 674px;
+  }
+  .choice-area35 {
+    width: 60%;
+    position: relative;
+    left: 40%;
+    bottom: 740px;
+  }
+  .choice-title {
+    position: relative;
+    right: 140%;
+    top: 311px;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+  }
+  .choice-title1 {
+    position: relative;
+    right: 140%;
+    top: 360px;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+  }
+  .choice-title2 {
+    position: relative;
+    left: 30%;
+    top: 266px;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+  }
+  .choice-title3 {
+    position: relative;
+    right: 140%;
+    top: 327px;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+  }
+  .order_area {
+    bottom: 15px;
+  }
+  .underline {
+    border-bottom: 0px;
+  }
+  .choice-title-texte {
+    font-size: 30px;
+  }
+  .order_area2 {
+    bottom: -428px;
+  }
+}
+@media screen and (min-width: 1025px) {
   .body-other {
     height: 1400px;
   }
@@ -1456,33 +1538,71 @@ h2 {
     display: flex;
     flex-direction: row;
     height: 700px;
+    bottom: 0px;
   }
   .menu4 {
     height: 900px;
     display: flex;
     flex-direction: row;
+    top: 10px;
   }
   .choice-area {
     width: 30%;
+    left: 0%;
   }
   .choice-area2 {
     width: 30%;
+    left: 0%;
   }
   .choice-area25 {
     width: 30%;
+    left: 0%;
   }
   .choice-area3 {
     width: 30%;
+    left: 0%;
   }
   .choice-area35 {
     width: 30%;
+    left: 0%;
+  }
+  .choice-title {
+    position: relative;
+    right: 0px;
+    top: 0px;
+    writing-mode: horizontal-tb;
+    text-orientation: sideways-right;
+  }
+  .choice-title1 {
+    position: relative;
+    right: 0px;
+    top: 0px;
+    writing-mode: horizontal-tb;
+    text-orientation: sideways-right;
+  }
+  .choice-title2 {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    writing-mode: horizontal-tb;
+    text-orientation: sideways-right;
+  }
+  .choice-title3 {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    writing-mode: horizontal-tb;
+    text-orientation: sideways-right;
   }
   .choice-title-texte {
     font-size: 30px;
   }
+  .underline {
+    border-bottom: solid 3px #99E2D0;
+  }
   .text-meal {
     font-size: 12px;
-    min-width: 180px;
+    min-width: 80%;
   }
   .order_area {
     position: relative;
@@ -1511,11 +1631,6 @@ h2 {
   }
   .choice-area35 {
     bottom: 0;
-  }
-}
-@media screen and (min-width: 1439px) {
-  .text-meal {
-    min-width: 250px;
   }
 }
 
