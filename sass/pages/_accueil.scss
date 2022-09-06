@@ -545,13 +545,9 @@ h4 {
         left: 80%;
         bottom: 90%;
     }
-
-    .text-area {
-        top: 10px;
-    }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
     .notice_stage_loader{
         width: 90%;
         height: 30%;
@@ -573,11 +569,11 @@ h4 {
         font-size: 45px;
     }
     .main-index {
-        height: 1040px;
+        height: 935px;
     }
 
     .location {
-        width: 49%;
+        width: 45%;
         position: relative;
         left: 50%;
         bottom: 100px;
@@ -585,14 +581,14 @@ h4 {
     }
 
     .title_area {
-        width: 49%;
+        width: 45%;
         position: relative;
         left: 50%;
         bottom: 100px;
         background-color: white;
     }
     .subtitle_title_area{
-        font-size: 12px;
+        font-size: 11px;
     }
     .search_font {
         width: 50%;
@@ -631,6 +627,10 @@ h4 {
 
     .restaurant-list{
         top: -50px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 20px;
     }
 
     .restaurant-title {
@@ -647,12 +647,9 @@ h4 {
 
     .restaurant-card {
         width: 45%;
-        height: 350px;
+        height: 300px;
     }
-
-    .text-area {
-        bottom: 95px;
-    }
+    
     h4{
         font-size: 30px;
     }
@@ -660,7 +657,7 @@ h4 {
         font-size:20px;
     }
     .card-new {
-        left: 75%;
+        left: 65%;
     }
     .fa-heart1{
         bottom: 70px;
