@@ -18,11 +18,13 @@
     margin-right: auto;
     margin-bottom: 20px;
 }
+
 .logo-header-other{
     width: 50%;
     margin-left: 25%;
     margin-bottom: 10px;
 }
+
 .button-arrow {
     font-size: 20px;
     background-color: white;
@@ -33,9 +35,11 @@
     bottom: 10px;
     margin-left: 25%;
 }
+
 .link-index{
     width: 100%;
 }
+
 @media screen and (min-width: 1025px) {
     .header-main {
         width: 50%;
@@ -49,9 +53,11 @@
         position: relative;
         top: 50px;
     }
+
     .logo-header-other{
         width: 40%;
     }
+    
     .button-arrow {
         font-size: 40px;
         margin-left: 20px;

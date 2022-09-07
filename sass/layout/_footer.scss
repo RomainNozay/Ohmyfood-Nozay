@@ -10,6 +10,8 @@
     
 
 }
+
+
 .footer-other-la-note {
     background-color: #2F4F4F;
     padding-bottom: 30px;
@@ -17,6 +19,7 @@
     top: -87px;
 
 }
+
 .logo-footer {
     width: 30%;
     filter: brightness(2000%);
@@ -24,6 +27,7 @@
     left: 5%;
     top: 20px;
 }
+
 .logo-footer-other {
     width: 30%;
     filter: brightness(2000%);
@@ -31,6 +35,7 @@
     left: 5%;
     top: 20px;
 }
+
 .ul {
     position: relative;
     top: 10px;
@@ -55,12 +60,15 @@
     position: relative;
     bottom: 2px;
 }
+
 .fa-file::before{
     display: none;
 }
+
 .fa-envelope::before{
     display: none;
 }
+
 .li {
     margin-top: 5px;
     font-size: 15px;
@@ -106,6 +114,7 @@
         position: relative;
         top: 57px;
     }
+
     .footer-other{
         display: flex;
         align-items: center;
@@ -113,42 +122,52 @@
         position: relative;
         top: 126px; 
     }
+
     .box-logo{
         width: 90%;
     }
+
     .logo-footer {
         width: 50%;
     }
+
     .logo-footer-other{
         width: 60%;
     }
+
     .box-logo-other{
         width:50%;
     }
+
     .ul{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    width: 50%;
-    top: 20px;
-    left: 0%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        top: 20px;
+        left: 0%;
     }
+
     .box-logo{
-    width: 50%;
-    display: flex;
-    justify-content: center;
+        width: 50%;
+        display: flex;
+        justify-content: center;
     }
+
     .first-column{
-    margin-right: 10%;
+        margin-right: 10%;
     }
+
     .li{
         font-size: 15px;
     }
+
     .fa-file::before{
         display: flex;
         margin-right: 5px;
         font-size: 10px;
     }
+
     .fa-envelope::before{
         display: flex;
         margin-right: 5px;
@@ -172,38 +191,45 @@
         position: relative;
         top: -60px;
     }
+
     .footer-other-la-note {
         top: 47px;
     }
+
     .box-logo{
         width: 50%;
         display: flex;
         justify-content: center;
     }
+
     .box-logo-other{
-        width:50%;
-        
+        width:50%; 
     }
+
     .logo-footer {
-        width: 40%;
-        
+        width: 40%;   
     }
+
     .logo-footer-other{
         width: 40%;
     }
+
     .ul{
         position: relative;
         display: flex;
         justify-content: center;
         width: 50%;
     }
+
     .first-column{
         margin-right: 10%;
         display: block;
     }
+
     .li{
         font-size: 15px;
     }
+
     .fa-handshake-angle::before {
         font-size: 10px;
     }
@@ -211,9 +237,11 @@
     .fa-utensils:before {
         font-size: 10px;
     }
+
     .fa-file::before{
         font-size: 10px;
     }
+
     .fa-envelope::before{
         font-size: 10px;
     }

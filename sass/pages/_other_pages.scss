@@ -1,12 +1,14 @@
 .body-other{
     max-width: 2000px;
 }
+
 .body-la-note{
     width: 100%;
     margin: 0;
     max-width: 2000px;
     height: 1679px;
 }
+
 .main-other {
     height: 1309px;
 }
@@ -27,6 +29,7 @@
     width: 100%;
     margin: -45% 0px -20% 0px;
 }
+
 .menu {
     height: 1000px;
 }
@@ -119,9 +122,11 @@ h2 {
 .choice-title {
     margin-left: 2%;
 }
+
 .choice-title2{
     margin-left: 2%;
 }
+
 .choice-title-texte {
     font-size: 20px;
     font-weight: lighter;
@@ -191,67 +196,68 @@ h2 {
         height: 1900px;
     }
 
-    .menu {
-        height: 1300px;
-    }
-
     .text-meal {
         font-size: 13px;
         min-width: 80%;
     }
 
-    .order_area {
-        bottom: 95px;
-    }
-
     h2{
         font-size: 35px;
     }
-}
-@media screen and (min-width: 426px) {
+
     .restaurant-img-tall-la-note{
         width: 100%;
         margin: -53% 0px -20% 0px;
     }
+
     .meat-area{
         bottom: 250px;
     }
+
     .menu{
+        height: 1300px;
         position: relative;
         bottom: 275px;
         width: 98%;
     }
+
     .menu4{
         position: relative;
         bottom: 260px;
     }
+
     .choice-area{
         width: 80%;
         position: relative;
         left: 20%;
     }
+
     .choice-area2{
         width: 80%;
         position: relative;
         bottom: 282px;
     }
+
     .choice-area25{
         width: 80%;
         position: relative;
         bottom: 345px;
     }
+
     .choice-area3{
         width: 80%;
         position: relative;
         left: 20%;
         bottom: 674px;
     }
+
     .choice-area35{
         width: 80%;
         position: relative;
         left: 20%;
         bottom: 740px;
     }
+
     .choice-title{
         position: relative;
         right: 110%;
@@ -259,6 +265,7 @@ h2 {
         writing-mode: vertical-rl;
         text-orientation: upright;
     }
+
     .choice-title1{
         position: relative;
         right: 110%;
@@ -266,6 +273,7 @@ h2 {
         writing-mode: vertical-rl;
         text-orientation: upright;
     }
+
     .choice-title2{
         position: relative;
         left: 16%;
@@ -273,6 +281,7 @@ h2 {
         writing-mode: vertical-rl;
         text-orientation: upright;
     }
+
     .choice-title3{
         position: relative;
         right: 110%;
@@ -280,17 +289,21 @@ h2 {
         writing-mode: vertical-rl;
         text-orientation: upright;
     }
+
     .order_area{
         top: -120px;
     }
+
     .underline{
         border-bottom: 0px;
     }
+
     .choice-title-texte{
         font-size: 30px;
         color: $green;
         font-weight: initial;
     }
+
     .order_area2{
         bottom: -310px;
     }
@@ -299,9 +312,11 @@ h2 {
     .body-other {
         height: 1185px;
     }
+
     .body-la-note{
         height: 1245px;
     }
+
     .main-other {
         height: 1033px;
     }
@@ -315,6 +330,7 @@ h2 {
         object-fit: contain;
         max-height: 600px;
     }
+
     .restaurant-img-tall{
         margin: -30% 0px 0px 0px;
     }
@@ -322,6 +338,7 @@ h2 {
     .meat-area{
         bottom: 20%;
     }
+
     h2 {
         font-size: 45px;
     }
@@ -368,6 +385,7 @@ h2 {
         width: 30%;
         left: 0%;
     }
+
     .choice-title{
         position: relative;
         right: 0px;
@@ -375,6 +393,7 @@ h2 {
         writing-mode: horizontal-tb;
         text-orientation: sideways;
     }
+
     .choice-title1{
         position: relative;
         right: 0px;
@@ -382,6 +401,7 @@ h2 {
         writing-mode: horizontal-tb;
         text-orientation: sideways;
     }
+
     .choice-title2{
         position: relative;
         left: 0px;
@@ -389,6 +409,7 @@ h2 {
         writing-mode: horizontal-tb;
         text-orientation: sideways; 
     }
+
     .choice-title3{
         position: relative;
         left: 0px;
@@ -396,16 +417,20 @@ h2 {
         writing-mode: horizontal-tb;
         text-orientation: sideways;
     }
+
     .choice-title-texte {
         font-size: 30px;
     }
+
     .underline{
         border-bottom: solid 3px $green;   
     }
+
     .text-meal {
         font-size: 12px;
         min-width: 80%;
     }
+    
     .order_area {
         position: relative;
         top: -401px;

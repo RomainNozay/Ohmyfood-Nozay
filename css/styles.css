@@ -1459,21 +1459,13 @@ h2 {
   .main-other2 {
     height: 1900px;
   }
-  .menu {
-    height: 1300px;
-  }
   .text-meal {
     font-size: 13px;
     min-width: 80%;
   }
-  .order_area {
-    bottom: 95px;
-  }
   h2 {
     font-size: 35px;
   }
-}
-@media screen and (min-width: 426px) {
   .restaurant-img-tall-la-note {
     width: 100%;
     margin: -53% 0px -20% 0px;
@@ -1482,6 +1474,7 @@ h2 {
     bottom: 250px;
   }
   .menu {
+    height: 1300px;
     position: relative;
     bottom: 275px;
     width: 98%;
