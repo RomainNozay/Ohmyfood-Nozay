@@ -1002,20 +1002,31 @@ h1 {
 }
 
 .card-new {
-  background-color: #99e2d0;
+  background-color: #99E2D0;
   border-radius: 5px;
   color: #1f997c;
   position: relative;
   bottom: 90%;
-  left: 75%;
+  left: 70%;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 23%;
+  width: 27%;
   height: 20%;
   font-size: 100%;
+  animation: glow 2s ease-in-out infinite alternate;
 }
 
+@keyframes glow {
+  from {
+    background-color: #99E2D0;
+    filter: brightness(0.8);
+  }
+  to {
+    background-color: #99E2D0;
+    filter: brightness(1.2);
+  }
+}
 .restaurant-card {
   display: flex;
   flex-direction: column;
