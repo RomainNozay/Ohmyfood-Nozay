@@ -1,7 +1,3 @@
-h1 {
-  font-size: 30px;
-}
-
 body {
   width: 100%;
   margin: 0;
@@ -34,8 +30,6 @@ button {
 
 .search_bar {
   width: 200px;
-  display: flex;
-  justify-content: center;
   border: none;
   background-color: #99E2D0;
   font-size: 15px;
@@ -543,7 +537,6 @@ button {
 }
 .header-main {
   display: flex;
-  justify-content: center;
   margin-top: 50px;
   margin-bottom: 5px;
   box-shadow: 0 5px 0 #99E2D0;
@@ -842,7 +835,7 @@ button {
 }
 
 .main-index {
-  height: 1880px;
+  height: 1837px;
 }
 
 .title_area {
@@ -850,7 +843,6 @@ button {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  justify-content: center;
   flex-wrap: wrap;
   height: auto;
   background-color: whitesmoke;
@@ -858,6 +850,7 @@ button {
 
 h1 {
   margin-bottom: 0px;
+  font-size: 27px;
 }
 
 .subtitle_title_area {
@@ -895,7 +888,7 @@ h1 {
 }
 
 .title_notice > h2 {
-  font-size: 30px;
+  font-size: 23px;
 }
 
 .notice_area {
@@ -989,7 +982,7 @@ h1 {
 }
 
 .title-restaurant {
-  font-size: 30px;
+  font-size: 25px;
   margin-left: 20px;
 }
 
@@ -1014,7 +1007,7 @@ h1 {
   width: 27%;
   height: 20%;
   font-size: 100%;
-  animation: glow 2s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
 }
 
 @keyframes glow {
@@ -1076,7 +1069,7 @@ h1 {
 
 h4 {
   margin: 15px 0 0 0;
-  font-size: 20px;
+  font-size: 17px;
   font-weight: bold;
 }
 
@@ -1126,7 +1119,7 @@ h4 {
     font-size: 30px;
   }
   .main-index {
-    height: 1690px;
+    height: 1693px;
   }
   .notice {
     display: none;
@@ -1146,6 +1139,12 @@ h4 {
   }
   .notice_stage {
     width: 60%;
+  }
+  .title-restaurant {
+    font-size: 30px;
+  }
+  h4 {
+    font-size: 20px;
   }
   .restaurant-card {
     height: 300px;
@@ -1460,7 +1459,7 @@ h2 {
     height: 1900px;
   }
   .text-meal {
-    font-size: 13px;
+    font-size: 16px;
     min-width: 80%;
   }
   h2 {

@@ -244,7 +244,7 @@
 }
 
 .main-index{
-    height: 1880px;
+    height: 1837px;
 }
 
 .title_area {
@@ -252,7 +252,6 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    justify-content: center;
     flex-wrap: wrap;
     height: auto;
     background-color: whitesmoke;
@@ -260,6 +259,7 @@
 
 h1 {
     margin-bottom: 0px;
+    font-size: 27px;
 }
 
 .subtitle_title_area {
@@ -298,7 +298,7 @@ h1 {
 }
 
 .title_notice>h2 {
-    font-size: 30px;
+    font-size: 23px;
 }
 
 .notice_area {
@@ -394,7 +394,7 @@ h1 {
 }
 
 .title-restaurant {
-    font-size: 30px;
+    font-size: 25px;
     margin-left: 20px;
 }
 
@@ -419,7 +419,7 @@ h1 {
     width: 27%;
     height: 20%;
     font-size: 100%;
-    animation: glow 2s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
 }
 
 @keyframes glow{
@@ -483,7 +483,7 @@ h1 {
 
 h4 {
     margin: 15px 0 0 0;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: bold;
 }
 
@@ -541,7 +541,7 @@ h4 {
     }
 
     .main-index{
-        height: 1690px;
+        height: 1693px;
     }
 
     .notice{
@@ -567,6 +567,13 @@ h4 {
 
     .notice_stage {
         width: 60%;
+    }
+
+    .title-restaurant{
+        font-size: 30px;
+    }
+    h4{
+        font-size: 20px;
     }
 
     .restaurant-card {
