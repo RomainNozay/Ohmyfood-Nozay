@@ -7,9 +7,16 @@
 .footer-other {
     background-color: #2F4F4F;
     padding-bottom: 30px;
+    
 
 }
+.footer-other-la-note {
+    background-color: #2F4F4F;
+    padding-bottom: 30px;
+    position: relative;
+    top: -87px;
 
+}
 .logo-footer {
     width: 30%;
     filter: brightness(2000%);
@@ -92,12 +99,19 @@
         flex-direction: row;
     }
 
-    .footer-other {
+    .footer-other-la-note {
         display: flex;
         align-items: center;
         width: 100%;
         position: relative;
-        top: 100px;
+        top: 57px;
+    }
+    .footer-other{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        position: relative;
+        top: 126px; 
     }
     .box-logo{
         width: 90%;
@@ -156,7 +170,10 @@
         align-items: center;
         width: 100%;
         position: relative;
-        top: 100px;
+        top: -60px;
+    }
+    .footer-other-la-note {
+        top: 47px;
     }
     .box-logo{
         width: 50%;
