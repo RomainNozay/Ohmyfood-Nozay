@@ -22,12 +22,12 @@
 
 .restaurant-img-tall {
     width: 100%;
-    margin: -25% 0px 0px 0px;
+    height: 200px;
 }
 
 .restaurant-img-tall-la-note{
     width: 100%;
-    margin: -45% 0px -20% 0px;
+    height: 300px;
 }
 
 .menu {
@@ -43,7 +43,7 @@
     flex-direction: column;
     border-radius: 25px 25px 0 0;
     position: relative;
-    bottom: 300px;
+    bottom: 250px;
     background-color: white;
 }
 
@@ -148,7 +148,7 @@ h2 {
     justify-content: center;
     align-items: center;
     position: relative;
-    top: -300px;
+    top: -274px;
 }
 
 .order_area2 {
@@ -156,7 +156,7 @@ h2 {
     justify-content: center;
     align-items: center;
     position: relative;
-    bottom: 169px;
+    bottom: 143px;
 }
 
 .text-meal {
@@ -204,10 +204,15 @@ h2 {
     h2{
         font-size: 35px;
     }
+    .restaurant-img-tall{
+        margin: -25% 0px 0px 0px;
+        height: auto;
+    }
 
     .restaurant-img-tall-la-note{
         width: 100%;
         margin: -53% 0px -20% 0px;
+        height: auto;
     }
 
     .meat-area{
@@ -292,6 +297,14 @@ h2 {
 
     .order_area{
         top: -120px;
+    }
+
+    .order_font{
+        height: 60px;
+    }
+
+    .search_text{
+        font-size: 30px;
     }
 
     .underline{
