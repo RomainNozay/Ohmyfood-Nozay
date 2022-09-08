@@ -355,7 +355,7 @@ button {
   top: 20px;
 }
 
-.ul {
+.footer-list {
   position: relative;
   top: 10px;
   color: white;
@@ -388,7 +388,7 @@ button {
   display: none;
 }
 
-.li {
+.footer-line {
   margin-top: 5px;
   font-size: 15px;
 }
@@ -447,7 +447,7 @@ button {
   .box-logo-other {
     width: 50%;
   }
-  .ul {
+  .footer-list {
     position: relative;
     display: flex;
     justify-content: center;
@@ -463,7 +463,7 @@ button {
   .first-column {
     margin-right: 10%;
   }
-  .li {
+  .footer-line {
     font-size: 15px;
   }
   .fa-file::before {
@@ -509,7 +509,7 @@ button {
   .logo-footer-other {
     width: 40%;
   }
-  .ul {
+  .footer-list {
     position: relative;
     display: flex;
     justify-content: center;
@@ -519,7 +519,7 @@ button {
     margin-right: 10%;
     display: block;
   }
-  .li {
+  .footer-line {
     font-size: 15px;
   }
   .fa-handshake-angle::before {
