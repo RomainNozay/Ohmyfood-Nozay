@@ -581,6 +581,7 @@ button {
     width: 50%;
     height: 50px;
     box-shadow: none;
+    margin-top: 50px;
   }
   .logo-header {
     width: 60%;
@@ -1184,14 +1185,14 @@ h4 {
     width: 45%;
     position: relative;
     left: 50%;
-    bottom: 100px;
+    bottom: 50px;
     border-radius: 20px;
   }
   .title_area {
     width: 45%;
     position: relative;
     left: 50%;
-    bottom: 100px;
+    bottom: 50px;
     background-color: white;
   }
   .subtitle_title_area {
