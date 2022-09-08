@@ -2,6 +2,7 @@
     position: relative;
     background-color: #2F4F4F;
     padding-bottom: 30px;
+    top: 50px;
 }
 
 .footer-other {
@@ -105,6 +106,7 @@
         align-items: center;
         width: 100%;
         flex-direction: row;
+        top: 50px;
     }
 
     .footer-other-la-note {
@@ -181,7 +183,7 @@
         align-items: center;
         width: 100%;
         flex-direction: row;
-        bottom: 0px;
+        top: 48px;
     }
 
     .footer-other {

@@ -243,10 +243,6 @@
     white-space: nowrap;
 }
 
-.main-index{
-    height: 1837px;
-}
-
 .title_area {
     display: flex;
     flex-direction: column;
@@ -539,13 +535,9 @@ h4 {
     .text_stage_loader{
         font-size: 30px;
     }
-
-    .main-index{
-        height: 1693px;
-    }
-
+    
     .notice{
-        display: none;
+        margin-left: 20px;
     }
 
     .title_notice {
@@ -614,23 +606,25 @@ h4 {
         font-size: 45px;
     }
 
-    .main-index {
-        height: 935px;
+    .location {
+        width: 50%;
+        position: relative;
+        left: 0%;
+        bottom: -69px;
+        border-radius: 20px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
-    .location {
-        width: 45%;
-        position: relative;
-        left: 50%;
-        bottom: 50px;
-        border-radius: 20px;
+    .search_text_main{
+        font-size: 20px;
     }
 
     .title_area {
-        width: 45%;
+        width: 100%;
         position: relative;
-        left: 50%;
-        bottom: 50px;
+        left: 0%;
+        bottom: -70px;
         background-color: white;
     }
 
@@ -638,11 +632,9 @@ h4 {
         font-size: 11px;
     }
     .search_font {
-        width: 50%;
-    }
-
-    .notice{
-        display: none;
+        width: 40%;
+        position: relative;
+        bottom: 23px;
     }
 
     .title_notice {
@@ -650,32 +642,35 @@ h4 {
         justify-content: center;
         margin-left: auto;
         margin-right: auto;
+        display: none;
     }
 
     .notice {
-        width: 40%;
+        width: 100%;
         position: relative;
-        left: 55%;
-        height: 350px;
-        bottom: 350px;
+        height: 100%;
+        bottom: -97px;
+        margin-left: 0px;
     }
 
     .notice_area {
         display: flex;
-        flex-direction: column;
-        width: 90%;
+        flex-direction: row;
+        width: 80%;
         position: relative;
-        left: 20%;
+        margin-left: auto;
+        margin-right: auto;
+        top: -45px;
+        height: 100px;
     }
 
     .notice_stage {
-        width: 80%;
+        width: 31%;
         position: relative;
-        right: 15%;
     }
 
     .restaurant-list{
-        top: -50px;
+        top: 50px;
         width: 90%;
         margin-left: auto;
         margin-right: auto;
