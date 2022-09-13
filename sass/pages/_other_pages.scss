@@ -72,7 +72,7 @@ h2 {
     transition: all 800ms;
 
     &:hover {
-        color: $color-secondary;
+        color: $color-primary;
     }
 }
 
@@ -140,7 +140,7 @@ h2 {
 }
 
 .underline {
-    border-bottom: solid 3px $color-primary;
+    border-bottom: solid 3px $color-tertiary;
 }
 
 .order_area {
@@ -170,11 +170,11 @@ h2 {
 .order_font {
     width: 55%;
     height: 55px;
-    background: linear-gradient($color-tertiary, $color-secondary);
+    background: linear-gradient($color-secondary, $color-primary);
     border-radius: 25px;
     color: white;
     border: none;
-    box-shadow: 0 0 5px $color-tertiary;
+    box-shadow: 0 0 5px $color-secondary;
     cursor: pointer;
     font-weight: bold;
 
@@ -313,7 +313,7 @@ h2 {
 
     .choice-title-texte{
         font-size: 30px;
-        color: $color-primary;
+        color: $color-tertiary;
         font-weight: initial;
     }
 
@@ -436,7 +436,7 @@ h2 {
     }
 
     .underline{
-        border-bottom: solid 3px $color-primary;   
+        border-bottom: solid 3px $color-tertiary;   
     }
 
     .text-meal {
